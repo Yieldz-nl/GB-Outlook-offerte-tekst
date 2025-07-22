@@ -16,7 +16,15 @@
   {
     "title": "AFSLUITING",
     "text": [
-      "Indien u gebruik wilt maken van deze aanbieding, ontvang ik graag uw schriftelijke akkoord als opdrachtbevestiging. Ik vertrouw erop u hiermee een passende aanbieding te hebben gedaan."
+      "Beste ",
+      { "inputType": "text" },
+      ",",
+      "<br>",
+      "<br>",
+      "Bedankt voor je aanvraag. Hieronder zijn de prijzen en uitgangspunten vermeld voor: ",
+      {
+        "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
+      }
     ]
   },
   {
