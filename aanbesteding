@@ -1,0 +1,218 @@
+[
+  {
+    "title": "INTRODUCTIE",
+    "text": [
+      "Beste ",
+      { "inputType": "text" },
+      ",",
+      "<br>",
+      "<br>",
+      "Bedankt voor uw prijsaanvraag. Hierbij ontvangt u onze prijsaanbieding met betrekking tot het project ",
+      { "inputType": "text" },
+      "."
+    ]
+  },
+  {
+    "title": "BESTEK",
+    "rows": [
+      {
+        "kolom1": "Bestekpost",
+        "kolom2": ["- ", { "inputType": "text" }]
+      },
+      {
+        "kolom1": "Handeling",
+        "kolom2": ["-  ", { "options": ["", "Afvoeren", "Levering", "Acceptatie"] }]
+      },
+      {
+        "kolom1": "Kwaliteit",
+        "kolom2": [
+          "- ",
+          {
+            "options": [
+              "",
+              "Klasse landbouw/natuur (schoon en vrij toepasbaar)",
+              "Klasse wonen",
+              "Klasse industrie (en voldoet aan emissiearme grond)",
+              "Klasse matig verontreinigd",
+              "Klasse sterk verontreinigd"
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Gewicht",
+        "kolom2": ["- Uitgaand van ", { "inputType": "number" }, " m³/ton"]
+      },
+      {
+        "kolom1": "Transport",
+        "kolom2": [
+          "- ",
+          {
+            "options": [
+              "",
+              "Inclusief transport per trailer",
+              "Inclusief transport per 10x8",
+              "Inclusief transport per 10x4",
+              "Exclusief transport",
+              "Geladen op de auto",
+              "Geleverd op het werk"
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Prijs",
+        "kolom2": [
+          "<b>",
+          "€ ",
+          { "inputType": "number" },
+          " per ",
+          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          "</b>"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "UITGANGSPUNTEN",
+    "rows": [
+      {
+        "kolom1": "Bewijsmiddel",
+        "kolom2": [
+          "- ",
+          {
+            "options": [
+              "",
+              "Partijkeuring (AP04) ... van ... rapportnummer: ..., d.d. ... ",
+              "Rapportage dient nog door u te worden overhandigd ",
+              "Gecertificeerd conform BRL 9335-4 ",
+              "De grond dient vooraf AP04 gekeurd te zijn "
+            ]
+          },
+          "<br>",
+          "- Kwaliteitsklassen conform het Besluit bodemkwaliteit en het Handelingskader PFAS"
+        ]
+      },
+      {
+        "kolom1": "Bevoegd gezag",
+        "kolom2": [
+          "- Meldingstermijn minimaal 7 kalenderdagen",
+          "<br>",
+          "- Acceptatie van genoemde partij(en) geschiedt onder voorbehoud van goedkeuring door bevoegd gezag"
+        ]
+      },
+      {
+        "kolom1": "Samenstelling",
+        "kolom2": [
+          {
+            "checkboxes": [
+              "- Het materiaal dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
+            ]
+          },
+          "<br>",
+          { "checkboxes": ["- Voor klasse industrie grond geldt: fijn puin <5 cm maximaal 5%"] },
+          "<br>",
+          {
+            "checkboxes": [
+              "- Het materiaal dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Hoeveelheidsbepaling",
+        "kolom2": [
+          "- Door ",
+          {
+            "options": [
+              "",
+              "weging van transport in tonnen op de loslocatie/laadlocatie",
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)"
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Transport",
+        "kolom2": [
+          "- ",
+          {
+            "options": ["", "Per trailer", "Per trailer mogelijk", "Per 10x4 / 8x4", "Op alle assen aangedreven auto's"]
+          },
+          "<br>",
+          "- ",
+          {
+            "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
+          },
+          " maximaal 10 minuten direct na aankomst",
+          "<br>",
+          { "checkboxes": ["- Transportafstand bedraagt circa ...... kilometer (enkele rit)"] },
+          "<br>",
+          {
+            "checkboxes": [
+              "- Deze prijsaanbieding is opgesteld op basis van de huidige brandstofprijzen. (prijspeil 01-2025)"
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Planning",
+        "kolom2": [
+          "- Aanvoerperiode: van ",
+          { "inputType": "text" },
+          " tot ",
+          { "inputType": "text" },
+          "<br>",
+          { "checkboxes": ["- Planning in overleg"] },
+          "<br>",
+          "- ",
+          { "options": ["", "Circa", "Minimaal", "Maximaal"] },
+          " ",
+          { "inputType": "number" },
+          " ",
+          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          " per dag / totale hoeveelheid aaneengesloten ",
+          { "options": ["", "afvoeren", "leveren"] },
+          " op basis van volle dagproducties van transport"
+        ]
+      },
+      {
+        "kolom1": "Werktijden",
+        "kolom2": [
+          "- Reguliere werkdagen en werktijden ",
+          { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
+          " uur"
+        ]
+      },
+      {
+        "kolom1": "Algemene voorwaarden",
+        "kolom2": ["www.grondbalans.nl/algemene-voorwaarden/"]
+      },
+      {
+        "kolom1": "Opbouw verrekenprijs",
+        "kolom2": [
+          { "checkboxes": ["- Inclusief het verzorgen van digitale begeleidingsbrieven"] },
+          "<br>",
+          { "checkboxes": ["- Inclusief het verzorgen van de melding/DSO verzoek voor het toepassen van grond"] },
+          "<br>",
+          { "checkboxes": ["- Exclusief laden, rijplaten en schoonhouden wegen"] },
+          "<br>",
+          "- Exclusief BTW"
+        ]
+      },
+      {
+        "kolom1": "Kwaliteitsborging",
+        "kolom2": ["- De verwerking wordt onder certificaat op basis van de BRL 9335 en protocol 9335-1 uitgevoerd."]
+      }
+    ]
+  },
+  {
+    "title": "AFSLUITING",
+    "text": [
+      "Indien u gebruik wilt maken van deze aanbieding, ontvang ik graag uw schriftelijke akkoord als opdrachtbevestiging.",
+      "<br>",
+      "<br>",
+      "Ik vertrouw erop u hiermee een passende aanbieding te hebben gedaan."
+    ]
+  }
+]
