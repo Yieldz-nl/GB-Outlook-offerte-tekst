@@ -1,6 +1,8 @@
 [
   "Beste",
   { "inputType": "text" },
+  ",",
+  "<br>",
   "<br>",
   "Bedankt voor je aanvraag. Hieronder zijn de prijzen en uitgangspunten vermeld voor:",
   {
