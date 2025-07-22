@@ -7,10 +7,9 @@
       ",",
       "<br>",
       "<br>",
-      "Bedankt voor je aanvraag. Hieronder zijn de prijzen en uitgangspunten vermeld voor: ",
-      {
-        "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
-      }
+      "Bedankt voor uw prijsaanvraag. HHierbij ontvangt u onze prijsaanbieding met betrekking tot het project ",
+      { "inputType": "text" },
+      "."
     ]
   },
   {
@@ -268,15 +267,9 @@
   {
     "title": "AFSLUITING",
     "text": [
-      "Beste ",
-      { "inputType": "text" },
-      ",",
+      "Indien u gebruik wilt maken van deze aanbieding, ontvang ik graag uw schriftelijke akkoord als opdrachtbevestiging.",
       "<br>",
-      "<br>",
-      "Bedankt voor je aanvraag. Hieronder zijn de prijzen en uitgangspunten vermeld voor: ",
-      {
-        "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
-      }
+      "Ik vertrouw erop u hiermee een passende aanbieding te hebben gedaan."
     ]
   }
 ]
