@@ -18,7 +18,7 @@
       {
         "kolom1": "Materiaal",
         "kolom2": [
-          "-",
+          "- ",
           {
             "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
           }
@@ -32,6 +32,7 @@
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           " / ",
           { "inputType": "number" },
+          " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }
         ]
       },
@@ -79,7 +80,7 @@
       },
       {
         "kolom1": "Slibgehalte",
-        "kolom2": ["- Maximaal", { "inputType": "number" }, "%"]
+        "kolom2": ["- Maximaal ", { "inputType": "number" }, "%"]
       },
       {
         "kolom1": "Bijmenging",
@@ -107,7 +108,7 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "-",
+          "- ",
           {
             "options": [
               "",
@@ -128,7 +129,7 @@
       },
       {
         "kolom1": "Prijs",
-        "kolom2": ["<b>", "€", { "inputType": "number" }, "per ton", "</b>"]
+        "kolom2": ["<b>", "€ ", { "inputType": "number" }, " per ton", "</b>"]
       }
     ]
   },
@@ -138,7 +139,7 @@
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
-          "-",
+          "- ",
           {
             "options": [
               "",
@@ -153,7 +154,7 @@
       {
         "kolom1": "Samenstelling",
         "kolom2": [
-          "- Slibgehalte is bepaald door",
+          "- Slibgehalte is bepaald door ",
           {
             "options": ["", "fractie <2 µm+ organische stof gehalte ", "zeefkromme <63 µm + organische stof gehalte  "]
           },
@@ -173,7 +174,7 @@
       {
         "kolom1": "Hoeveelheidsbepaling",
         "kolom2": [
-          "- Door",
+          "- Door ",
           {
             "options": [
               "",
@@ -186,16 +187,16 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "-",
+          "- ",
           {
             "options": ["", "Per trailer", "Per trailer mogelijk", "Per 10x4 / 8x4", "Op alle assen aangedreven auto's"]
           },
           "<br>",
-          "-",
+          "- ",
           {
             "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
           },
-          "maximaal 10 minuten direct na aankomst",
+          " maximaal 10 minuten direct na aankomst",
           "<br>",
           { "checkboxes": ["- Transportafstand bedraagt circa ...... kilometer (enkele rit)"] },
           "<br>",
@@ -218,17 +219,19 @@
           "<br>",
           "- ",
           { "options": ["", "Circa", "Minimaal", "Maximaal"] },
+          " ",
           { "inputType": "number" },
+          " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          "per dag / totale hoeveelheid aaneengesloten",
+          " per dag / totale hoeveelheid aaneengesloten ",
           { "options": ["", "afvoeren", "leveren"] },
-          "op basis van volle dagproducties van transport"
+          " op basis van volle dagproducties van transport"
         ]
       },
       {
         "kolom1": "Werktijden",
         "kolom2": [
-          "- Reguliere werkdagen en werktijden",
+          "- Reguliere werkdagen en werktijden ",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           "uur"
         ]
@@ -242,7 +245,7 @@
         "kolom2": [
           {
             "checkboxes": [
-              "Indien het materiaal afwijkingen vertoont met de vooraf overlegde gegevens en beschreven slibgehaltes zal een verrekening plaatsvinden van € 1,50 per massa % per ton"
+              "- Indien het materiaal afwijkingen vertoont met de vooraf overlegde gegevens en beschreven slibgehaltes zal een verrekening plaatsvinden van € 1,50 per massa % per ton"
             ]
           }
         ]
