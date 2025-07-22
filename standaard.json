@@ -189,7 +189,7 @@
           },
           "maximaal 10 minuten direct na aankomst",
           "<br>",
-          { "checkboxes": ["- Transportafstand bedraagt circa { "inputType": "text" } kilometer (enkele rit)"] },
+          { "checkboxes": ["- Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
           "<br>",
           {
             "checkboxes": [
