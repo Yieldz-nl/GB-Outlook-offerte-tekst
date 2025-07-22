@@ -2,12 +2,12 @@
   {
     "title": "INTRODUCTIE",
     "text": [
-      "Beste",
+      "Beste ",
       { "inputType": "text" },
       ",",
       "<br>",
       "<br>",
-      "Bedankt voor je aanvraag. Hieronder zijn de prijzen en uitgangspunten vermeld voor:",
+      "Bedankt voor je aanvraag. Hieronder zijn de prijzen en uitgangspunten vermeld voor: ",
       {
         "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
       }
@@ -19,7 +19,7 @@
       {
         "kolom1": "Materiaal",
         "kolom2": [
-          "-",
+          "- ",
           {
             "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
           }
@@ -30,9 +30,11 @@
         "kolom2": [
           "- Circa ",
           { "inputType": "number" },
+          " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           " / ",
           { "inputType": "number" },
+          " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }
         ]
       },
@@ -101,7 +103,7 @@
       {
         "kolom1": "Levering",
         "kolom2": [
-          "-",
+          "- ",
           {
             "options": [
               "",
@@ -126,9 +128,9 @@
         "kolom1": "Prijs",
         "kolom2": [
           "<b>",
-          "€",
+          "€ ",
           { "inputType": "number" },
-          "per",
+          " per ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           "</b>"
         ]
@@ -141,7 +143,7 @@
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
-          "-",
+          "- ",
           {
             "options": [
               "",
@@ -179,7 +181,7 @@
       {
         "kolom1": "Hoeveelheidsbepaling",
         "kolom2": [
-          "- Door",
+          "- Door ",
           {
             "options": [
               "",
@@ -192,16 +194,16 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "-",
+          "- Per ",
           {
-            "options": ["", "Per trailer", "Per trailer mogelijk", "Per 10x4 / 8x4", "Op alle assen aangedreven auto's"]
+            "options": ["", "trailer", "trailer mogelijk", "10x4 / 8x4", "op alle assen aangedreven auto's"]
           },
           "<br>",
-          "-",
+          "- ",
           {
             "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
           },
-          "maximaal 10 minuten direct na aankomst",
+          " maximaal 10 minuten direct na aankomst",
           "<br>",
           { "checkboxes": ["- Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
           "<br>",
@@ -223,17 +225,20 @@
           "<br>",
           "- ",
           { "options": ["", "Circa", "Minimaal", "Maximaal"] },
+          " ",
           { "inputType": "number" },
+          " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           "per dag / totale hoeveelheid aaneengesloten",
+          " ",
           { "options": ["", "afvoeren", "leveren"] },
-          "op basis van volle dagproducties van transport"
+          " op basis van volle dagproducties van transport"
         ]
       },
       {
         "kolom1": "Werktijden",
         "kolom2": [
-          "- Reguliere werkdagen en werktijden",
+          "- Reguliere werkdagen en werktijden ",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           "uur"
         ]
