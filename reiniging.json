@@ -158,6 +158,7 @@
           {
             "options": ["", "fractie <2 µm+ organische stof gehalte ", "zeefkromme <63 µm + organische stof gehalte  "]
           },
+          "<br>",
           {
             "checkboxes": [
               "- De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
