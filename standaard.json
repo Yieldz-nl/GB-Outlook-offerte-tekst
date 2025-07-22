@@ -14,6 +14,20 @@
     ]
   },
   {
+    "title": "AFSLUITING",
+    "text": [
+      "Beste ",
+      { "inputType": "text" },
+      ",",
+      "<br>",
+      "<br>",
+      "Bedankt voor je aanvraag. Hieronder zijn de prijzen en uitgangspunten vermeld voor: ",
+      {
+        "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
+      }
+    ]
+  },
+  {
     "title": "DEELPARTIJ",
     "rows": [
       {
