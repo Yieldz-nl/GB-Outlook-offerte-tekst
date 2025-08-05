@@ -29,6 +29,7 @@
         "kolom2": [
           "- Circa ",
           { "inputType": "number" },
+          " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           " / ",
           { "inputType": "number" },
@@ -199,7 +200,7 @@
           },
           " maximaal 10 minuten direct na aankomst",
           "<br>",
-          { "checkboxes": ["- Transportafstand bedraagt circa ...... kilometer (enkele rit)"] },
+          { "checkboxes": ["- Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
           "<br>",
           {
             "checkboxes": [
@@ -234,12 +235,12 @@
         "kolom2": [
           "- Reguliere werkdagen en werktijden ",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
-          "uur"
+          " uur"
         ]
       },
       {
         "kolom1": "Gestanddoening",
-        "kolom2": ["Tot 3 weken na dagtekening"]
+        "kolom2": ["- Tot 3 weken na dagtekening"]
       },
       {
         "kolom1": "Bijzonderheden",
