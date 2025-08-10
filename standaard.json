@@ -27,7 +27,7 @@
       {
         "kolom1": "Hoeveelheid",
         "kolom2": [
-          "- Circa ",
+          "Circa ",
           { "inputType": "number" },
           " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
@@ -40,7 +40,6 @@
       {
         "kolom1": "Kwaliteit",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -56,7 +55,7 @@
           },
           " conform Besluit Bodemkwaliteit",
           "<br>",
-          "- PFAS dienen te voldoen aan ",
+          "PFAS dienen te voldoen aan ",
           {
             "options": [
               "",
@@ -77,7 +76,6 @@
       {
         "kolom1": "Bijmenging",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -94,7 +92,7 @@
         "kolom2": [
           {
             "checkboxes": [
-              "- Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging"
+              "Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging"
             ]
           }
         ]
@@ -102,7 +100,6 @@
       {
         "kolom1": "Levering",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -119,7 +116,6 @@
       {
         "kolom1": "Betaalwijze",
         "kolom2": [
-          "- ",
           { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
         ]
       },
@@ -142,7 +138,6 @@
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -156,9 +151,9 @@
       {
         "kolom1": "Bevoegd gezag",
         "kolom2": [
-          "- Meldingstermijn minimaal 7 kalenderdagen",
+          "Meldingstermijn minimaal 7 kalenderdagen",
           "<br>",
-          "- Acceptatie van genoemde partij(en) geschiedt onder voorbehoud van goedkeuring door bevoegd gezag"
+          "Acceptatie van genoemde partij(en) geschiedt onder voorbehoud van goedkeuring door bevoegd gezag"
         ]
       },
       {
@@ -166,13 +161,13 @@
         "kolom2": [
           {
             "checkboxes": [
-              "- De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
+              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
             ]
           },
           "<br>",
           {
             "checkboxes": [
-              "- De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
+              "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
             ]
           }
         ]
@@ -180,7 +175,7 @@
       {
         "kolom1": "Hoeveelheidsbepaling",
         "kolom2": [
-          "- Door ",
+          "Door ",
           {
             "options": [
               "",
@@ -193,12 +188,11 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "- Per ",
+          "Per ",
           {
             "options": ["", "trailer", "trailer mogelijk", "10x4 / 8x4", "op alle assen aangedreven auto's"]
           },
           "<br>",
-          "- ",
           {
             "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
           },
@@ -208,7 +202,7 @@
           "<br>",
           {
             "checkboxes": [
-              "- Deze prijsaanbieding is opgesteld op basis van de huidige brandstofprijzen. (prijspeil 01-2025)"
+              "Deze prijsaanbieding is opgesteld op basis van de huidige brandstofprijzen. (prijspeil 01-2025)"
             ]
           }
         ]
@@ -216,13 +210,12 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          "- Aanvoerperiode: van ",
+          "Aanvoerperiode: van ",
           { "inputType": "text" },
           " tot ",
           { "inputType": "text" },
           { "checkboxes": ["(planning in overleg)"] },
           "<br>",
-          "- ",
           { "options": ["", "Circa", "Minimaal", "Maximaal"] },
           " ",
           { "inputType": "number" },
@@ -237,14 +230,14 @@
       {
         "kolom1": "Werktijden",
         "kolom2": [
-          "- Reguliere werkdagen en werktijden ",
+          "Reguliere werkdagen en werktijden ",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           " uur"
         ]
       },
       {
         "kolom1": "Gestanddoening",
-        "kolom2": ["- Tot 3 weken na dagtekening"]
+        "kolom2": ["Tot 3 weken na dagtekening"]
       },
       {
         "kolom1": "Algemene voorwaarden",
@@ -253,13 +246,13 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxes": ["- Inclusief het verzorgen van digitale begeleidingsbrieven"] },
+          { "checkboxes": ["Inclusief het verzorgen van digitale begeleidingsbrieven"] },
           "<br>",
-          { "checkboxes": ["- Inclusief het verzorgen van de melding/DSO verzoek voor het toepassen van grond"] },
+          { "checkboxes": ["Inclusief het verzorgen van de melding/DSO verzoek voor het toepassen van grond"] },
           "<br>",
-          { "checkboxes": ["- Exclusief laden, rijplaten en schoonhouden wegen"] },
+          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen"] },
           "<br>",
-          "- Exclusief BTW"
+          "Exclusief BTW"
         ]
       }
     ]
