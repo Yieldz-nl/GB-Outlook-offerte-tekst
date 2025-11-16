@@ -18,7 +18,6 @@
       {
         "kolom1": "Materiaal",
         "kolom2": [
-          "- ",
           {
             "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
           }
@@ -198,7 +197,7 @@
           },
           " maximaal 10 minuten direct na aankomst",
           "<br>",
-          { "checkboxes": ["- Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
+          { "checkboxes": ["Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
           "<br>",
           {
             "checkboxes": [
