@@ -18,7 +18,6 @@
       {
         "kolom1": "Materiaal",
         "kolom2": [
-          "- ",
           {
             "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
           }
@@ -27,7 +26,7 @@
       {
         "kolom1": "Hoeveelheid",
         "kolom2": [
-          "- Circa ",
+          "Circa ",
           { "inputType": "number" },
           " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
@@ -40,11 +39,10 @@
       {
         "kolom1": "Kwaliteit",
         "kolom2": [
-          "- ",
           { "options": ["", "Klasse matig verontreinigd", "Klasse sterk verontreinigd"] },
           " conform Besluit Bodemkwaliteit",
           "<br>",
-          "- PFAS dienen te voldoen aan ",
+          "PFAS dienen te voldoen aan ",
           {
             "options": [
               "",
@@ -66,27 +64,26 @@
       {
         "kolom1": "Verontreiniging",
         "kolom2": [
-          { "checkboxes": ["- Minerale olie"] },
+          { "checkboxes": ["Minerale olie"] },
           "<br>",
-          { "checkboxes": ["- PAK"] },
+          { "checkboxes": ["PAK"] },
           "<br>",
-          { "checkboxes": ["- Zware metalen"] },
+          { "checkboxes": ["Zware metalen"] },
           "<br>",
-          { "checkboxes": ["- Asbest"] },
+          { "checkboxes": ["Asbest"] },
           "<br>",
-          { "checkboxes": ["- PFAS"] },
+          { "checkboxes": ["PFAS"] },
           "<br>",
-          { "checkboxes": ["- ..."] }
+          { "checkboxes": ["..."] }
         ]
       },
       {
         "kolom1": "Slibgehalte",
-        "kolom2": ["- Maximaal ", { "inputType": "number" }, "%"]
+        "kolom2": ["Maximaal ", { "inputType": "number" }, "%"]
       },
       {
         "kolom1": "Bijmenging",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -102,14 +99,13 @@
         "kolom1": "Bijzonderheden",
         "kolom2": [
           {
-            "checkboxes": ["- Voor acceptatie is aanvullend onderzoek noodzakelijk op ..."]
+            "checkboxes": ["Voor acceptatie is aanvullend onderzoek noodzakelijk op ..."]
           }
         ]
       },
       {
         "kolom1": "Transport",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -124,7 +120,6 @@
       {
         "kolom1": "Betaalwijze",
         "kolom2": [
-          "- ",
           { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
         ]
       },
@@ -140,7 +135,6 @@
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -155,20 +149,20 @@
       {
         "kolom1": "Samenstelling",
         "kolom2": [
-          "- Slibgehalte is bepaald door ",
+          "Slibgehalte is bepaald door ",
           {
             "options": ["", "fractie <2 µm+ organische stof gehalte ", "zeefkromme <63 µm + organische stof gehalte  "]
           },
           "<br>",
           {
             "checkboxes": [
-              "- De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
+              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
             ]
           },
           "<br>",
           {
             "checkboxes": [
-              "- De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
+              "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
             ]
           }
         ]
@@ -176,7 +170,7 @@
       {
         "kolom1": "Hoeveelheidsbepaling",
         "kolom2": [
-          "- Door ",
+          "Door ",
           {
             "options": [
               "",
@@ -189,22 +183,20 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "- ",
           {
             "options": ["", "Per trailer", "Per trailer mogelijk", "Per 10x4 / 8x4", "Op alle assen aangedreven auto's"]
           },
           "<br>",
-          "- ",
           {
             "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
           },
           " maximaal 10 minuten direct na aankomst",
           "<br>",
-          { "checkboxes": ["- Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
+          { "checkboxes": ["Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
           "<br>",
           {
             "checkboxes": [
-              "- Deze prijsaanbieding is opgesteld op basis van de huidige brandstofprijzen. (prijspeil 01-2025)"
+              "Deze prijsaanbieding is opgesteld op basis van de huidige brandstofprijzen. (prijspeil 01-2025)"
             ]
           }
         ]
@@ -212,14 +204,13 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          "- Aanvoerperiode: van ",
+          "Aanvoerperiode: van ",
           { "inputType": "text" },
           " tot ",
           { "inputType": "text" },
           "<br>",
-          { "checkboxes": ["- Planning in overleg"] },
+          { "checkboxes": ["Planning in overleg"] },
           "<br>",
-          "- ",
           { "options": ["", "Circa", "Minimaal", "Maximaal"] },
           " ",
           { "inputType": "number" },
@@ -233,21 +224,21 @@
       {
         "kolom1": "Werktijden",
         "kolom2": [
-          "- Reguliere werkdagen en werktijden ",
+          "Reguliere werkdagen en werktijden ",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           " uur"
         ]
       },
       {
         "kolom1": "Gestanddoening",
-        "kolom2": ["- Tot 3 weken na dagtekening"]
+        "kolom2": ["Tot 3 weken na dagtekening"]
       },
       {
         "kolom1": "Bijzonderheden",
         "kolom2": [
           {
             "checkboxes": [
-              "- Indien het materiaal afwijkingen vertoont met de vooraf overlegde gegevens en beschreven slibgehaltes zal een verrekening plaatsvinden van € 1,50 per massa % per ton"
+              "Indien het materiaal afwijkingen vertoont met de vooraf overlegde gegevens en beschreven slibgehaltes zal een verrekening plaatsvinden van € 1,50 per massa % per ton"
             ]
           }
         ]
@@ -259,13 +250,13 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxes": ["- Inclusief het verzorgen van digitale begeleidingsbrieven"] },
+          { "checkboxes": ["Inclusief het verzorgen van digitale begeleidingsbrieven"] },
           "<br>",
-          { "checkboxes": ["- Inclusief het verzorgen van een afvalstroomnummer"] },
+          { "checkboxes": ["Inclusief het verzorgen van een afvalstroomnummer"] },
           "<br>",
-          { "checkboxes": ["- Exclusief laden, rijplaten en schoonhouden wegen"] },
+          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen"] },
           "<br>",
-          "- Exclusief BTW"
+          "Exclusief BTW"
         ]
       },
       {
