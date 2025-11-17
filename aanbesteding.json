@@ -17,8 +17,11 @@
     "rows": [
       {
         "kolom1": "Bestekpost",
-        "kolom2": [{ "inputType": "text" }],
-        "."
+        "kolom2": [
+          { "inputType": "text" },
+          "."
+        ],
+        
       },
       {
         "kolom1": "Handeling",
