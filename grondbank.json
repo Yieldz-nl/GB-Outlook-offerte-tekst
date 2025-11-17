@@ -17,7 +17,8 @@
     "rows": [
       {
         "kolom1": "Bestekpost",
-        "kolom2": [{ "inputType": "text" }]
+        "kolom2": [{ "inputType": "text" }],
+        "."
       },
       {
         "kolom1": "Kwaliteit indicatief",
@@ -25,9 +26,9 @@
           {
             "options": [
               "",
-              "Klasse landbouw/natuur (schoon en vrij toepasbaar)",
-              "Klasse wonen",
-              "Klasse industrie (en voldoet aan emissiearme grond)"
+              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
+              "Klasse wonen.",
+              "Klasse industrie (en voldoet aan emissiearme grond)."
             ]
           }
         ]
@@ -35,7 +36,7 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          { "options": ["", "Transport per trailer", "Transport per 10x8", "Transport per 10x4"] }
+          { "options": ["", "Transport per trailer.", "Transport per 10x8.", "Transport per 10x4."] }
         ]
       },
       {
@@ -45,7 +46,7 @@
           "€ ",
           { "inputType": "number" },
           " per ",
-          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
           "</b>"
         ]
       },
@@ -56,7 +57,7 @@
           "€ ",
           { "inputType": "number" },
           " per ",
-          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton", "uur"] },
+          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton.", "uur."] },
           "</b>"
         ]
       }
@@ -71,54 +72,54 @@
           {
             "options": [
               "",
-              "Grondbank Alkmaar, Vronermeerweg 10 te Sint Pancras",
-              "Grondbank Almere, Hefbrugweg 103 te Almere",
-              "Grondbank Beilen, De Mussels 2A te Beilen",
-              "Grondbank Deventer, Ten Havesweg 1 te Deventer",
-              "Grondbank Dordrecht, Kerkeplaat 15 te Dordrecht",
-              "Grondbank Eindhoven / Brainport Park, Nieuwe Achtse Heide 101 te Eindhoven",
-              "Grondbank Ermelo, Rodeschuurderwegje 26-28 te Ermelo",
-              "Grondbank Franeker, Edisonstraat 25 te Franeker",
-              "Grondbank Groningen, Albert Harkemaweg 78 te Aduard",
-              "Grondbank Kampen, Haatlandhaven 16 te Kampen",
-              "Grondbank Leeuwarden, Pascalstraat 9 te Leeuwarden",
-              "Grondbank Lisse, Heereweg 1B te Lisse",
-              "Grondbank Nieuwegein, Structuurbaan 11 te Nieuwegein",
-              "Grondbank Steenwijk, Oevers 14 te Steenwijk"
+              "Grondbank Alkmaar, Vronermeerweg 10 te Sint Pancras.",
+              "Grondbank Almere, Hefbrugweg 103 te Almere.",
+              "Grondbank Beilen, De Mussels 2A te Beilen.",
+              "Grondbank Deventer, Ten Havesweg 1 te Deventer.",
+              "Grondbank Dordrecht, Kerkeplaat 15 te Dordrecht.",
+              "Grondbank Eindhoven / Brainport Park, Nieuwe Achtse Heide 101 te Eindhoven.",
+              "Grondbank Ermelo, Rodeschuurderwegje 26-28 te Ermelo.",
+              "Grondbank Franeker, Edisonstraat 25 te Franeker.",
+              "Grondbank Groningen, Albert Harkemaweg 78 te Aduard.",
+              "Grondbank Kampen, Haatlandhaven 16 te Kampen.",
+              "Grondbank Leeuwarden, Pascalstraat 9 te Leeuwarden.",
+              "Grondbank Lisse, Heereweg 1B te Lisse.",
+              "Grondbank Nieuwegein, Structuurbaan 11 te Nieuwegein.",
+              "Grondbank Steenwijk, Oevers 14 te Steenwijk."
             ]
           },
           "<br>",
           "Geopend van",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
-          " uur"
+          " uur."
         ]
       },
       {
         "kolom1": "Hoeveelheid",
         "kolom2": [
           { "inputType": "number" },
-          " m³/ton",
+          " m³/ton.",
           "<br>",
           "Hoeveelheidsbepaling door ",
           {
             "options": [
               "",
-              "weging van transport in tonnen op de loslocatie/laadlocatie",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)"
+              "weging van transport in tonnen op de loslocatie/laadlocatie.",
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
             ]
           }
         ]
       },
       {
         "kolom1": "Bewijsmiddel",
-        "kolom2": ["Op de grondbank wordt een indicatieve keuring ingezet"]
+        "kolom2": ["Op de grondbank wordt een indicatieve keuring ingezet."]
       },
       {
         "kolom1": "Kwaliteit",
         "kolom2": [
           "De partij dient na inkeuring te voldoen aan maximaal klasse ",
           { "options": ["", "landbouw/natuur", "wonen", "industrie"] },
-          " conform Besluit Bodemkwaliteit en Handelingskader PFAS"
+          " conform Besluit Bodemkwaliteit en Handelingskader PFAS."
         ]
       },
       {
@@ -126,13 +127,13 @@
         "kolom2": [
           {
             "checkboxes": [
-              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
+              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
             ]
           },
           "<br>",
           {
             "checkboxes": [
-              "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
+              "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop."
             ]
           }
         ]
@@ -144,8 +145,8 @@
           {
             "options": [
               "",
-              "weging van transport in tonnen op de loslocatie/laadlocatie",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)"
+              "weging van transport in tonnen op de loslocatie/laadlocatie.",
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
             ]
           }
         ]
@@ -154,12 +155,12 @@
         "kolom1": "Transport",
         "kolom2": [
           "De laadlocatie is bereikbaar voor transport per ",
-          { "options": ["", "trailer", "10x4"] },
+          { "options": ["", "trailer.", "10x4."] },
           "<br>",
           "De loslocatie is bereikbaar voor transport per ",
-          { "options": ["", "trailer", "10x4"] },
+          { "options": ["", "trailer.", "10x4."] },
           "<br>",
-          "Laadtijd maximaal 10 minuten direct na aankomst"
+          "Laadtijd maximaal 10 minuten direct na aankomst."
         ]
       },
       {
@@ -169,10 +170,11 @@
           { "inputType": "text" },
           " tot ",
           { "inputType": "text" },
+          ".",
           "<br>",
-          { "checkboxes": ["Planning in overleg"] },
+          { "checkboxes": ["Planning in overleg."] },
           "<br>",
-          { "checkboxes": ["Op basis van volle dagproducties van transport"] }
+          { "checkboxes": ["Op basis van volle dagproducties van transport."] }
         ]
       },
       {
@@ -182,18 +184,16 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxes": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven"] },
+          { "checkboxes": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven."] },
           "<br>",
-          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen"] },
+          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
           "<br>",
-          "Exclusief BTW"
+          "Exclusief BTW."
         ]
       },
       {
         "kolom1": "Kwaliteitsborging",
-        "kolom2": [
-          "Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1"
-        ]
+        "kolom2": ["Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1."]
       }
     ]
   },
