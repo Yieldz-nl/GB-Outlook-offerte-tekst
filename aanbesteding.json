@@ -17,11 +17,11 @@
     "rows": [
       {
         "kolom1": "Bestekpost",
-        "kolom2": ["{ "inputType": "text" }]
+        "kolom2": [{ "inputType": "text" }]
       },
       {
         "kolom1": "Handeling",
-        "kolom2": ["{ "options": ["", "Afvoeren", "Levering", "Acceptatie"] }]
+        "kolom2": [{ "options": ["", "Afvoeren", "Levering", "Acceptatie"] }]
       },
       {
         "kolom1": "Kwaliteit",
