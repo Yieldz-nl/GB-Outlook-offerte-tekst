@@ -17,12 +17,11 @@
     "rows": [
       {
         "kolom1": "Bestekpost",
-        "kolom2": ["- ", { "inputType": "text" }]
+        "kolom2": ["{ "inputType": "text" }]
       },
       {
         "kolom1": "Kwaliteit indicatief",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -36,7 +35,6 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "- ",
           { "options": ["", "Transport per trailer", "Transport per 10x8", "Transport per 10x4"] }
         ]
       },
@@ -70,7 +68,6 @@
       {
         "kolom1": "Grondbanklocatie",
         "kolom2": [
-          "- ",
           {
             "options": [
               "",
@@ -91,7 +88,7 @@
             ]
           },
           "<br>",
-          "- Geopend van",
+          "Geopend van",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           " uur"
         ]
@@ -99,11 +96,10 @@
       {
         "kolom1": "Hoeveelheid",
         "kolom2": [
-          "- ",
           { "inputType": "number" },
           " m³/ton",
           "<br>",
-          "- Hoeveelheidsbepaling door ",
+          "Hoeveelheidsbepaling door ",
           {
             "options": [
               "",
@@ -115,12 +111,12 @@
       },
       {
         "kolom1": "Bewijsmiddel",
-        "kolom2": ["- Op de grondbank wordt een indicatieve keuring ingezet"]
+        "kolom2": ["Op de grondbank wordt een indicatieve keuring ingezet"]
       },
       {
         "kolom1": "Kwaliteit",
         "kolom2": [
-          "- De partij dient na inkeuring te voldoen aan maximaal klasse ",
+          "De partij dient na inkeuring te voldoen aan maximaal klasse ",
           { "options": ["", "landbouw/natuur", "wonen", "industrie"] },
           " conform Besluit Bodemkwaliteit en Handelingskader PFAS"
         ]
@@ -130,13 +126,13 @@
         "kolom2": [
           {
             "checkboxes": [
-              "- De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
+              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
             ]
           },
           "<br>",
           {
             "checkboxes": [
-              "- De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
+              "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
             ]
           }
         ]
@@ -144,7 +140,7 @@
       {
         "kolom1": "Hoeveelheidsbepaling",
         "kolom2": [
-          "- Door ",
+          "Door ",
           {
             "options": [
               "",
@@ -157,26 +153,26 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "- De laadlocatie is bereikbaar voor transport per ",
+          "De laadlocatie is bereikbaar voor transport per ",
           { "options": ["", "trailer", "10x4"] },
           "<br>",
-          "- De loslocatie is bereikbaar voor transport per ",
+          "De loslocatie is bereikbaar voor transport per ",
           { "options": ["", "trailer", "10x4"] },
           "<br>",
-          "- Laadtijd maximaal 10 minuten direct na aankomst"
+          "Laadtijd maximaal 10 minuten direct na aankomst"
         ]
       },
       {
         "kolom1": "Planning",
         "kolom2": [
-          "- Aanvoerperiode: van ",
+          "Aanvoerperiode: van ",
           { "inputType": "text" },
           " tot ",
           { "inputType": "text" },
           "<br>",
-          { "checkboxes": ["- Planning in overleg"] },
+          { "checkboxes": ["Planning in overleg"] },
           "<br>",
-          { "checkboxes": ["- Op basis van volle dagproducties van transport"] }
+          { "checkboxes": ["Op basis van volle dagproducties van transport"] }
         ]
       },
       {
@@ -186,17 +182,17 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxes": ["- Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven"] },
+          { "checkboxes": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven"] },
           "<br>",
-          { "checkboxes": ["- Exclusief laden, rijplaten en schoonhouden wegen"] },
+          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen"] },
           "<br>",
-          "- Exclusief BTW"
+          "Exclusief BTW"
         ]
       },
       {
         "kolom1": "Kwaliteitsborging",
         "kolom2": [
-          "- Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1"
+          "Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1"
         ]
       }
     ]
