@@ -17,11 +17,12 @@
     "rows": [
       {
         "kolom1": "Bestekpost",
-        "kolom2": [{ "inputType": "text" }]
+        "kolom2": [{ "inputType": "text" }],
+        "."
       },
       {
         "kolom1": "Handeling",
-        "kolom2": [{ "options": ["", "Afvoeren", "Levering", "Acceptatie"] }]
+        "kolom2": [{ "options": ["", "Afvoeren.", "Levering.", "Acceptatie."] }]
       },
       {
         "kolom1": "Kwaliteit",
@@ -29,18 +30,18 @@
           {
             "options": [
               "",
-              "Klasse landbouw/natuur (schoon en vrij toepasbaar)",
-              "Klasse wonen",
-              "Klasse industrie (en voldoet aan emissiearme grond)",
-              "Klasse matig verontreinigd",
-              "Klasse sterk verontreinigd"
+              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
+              "Klasse wonen.",
+              "Klasse industrie (en voldoet aan emissiearme grond).",
+              "Klasse matig verontreinigd.",
+              "Klasse sterk verontreinigd."
             ]
           }
         ]
       },
       {
         "kolom1": "Gewicht",
-        "kolom2": ["Uitgaand van ", { "inputType": "number" }, " m³/ton"]
+        "kolom2": ["Uitgaand van ", { "inputType": "number" }, " m³/ton."]
       },
       {
         "kolom1": "Transport",
@@ -48,12 +49,12 @@
           {
             "options": [
               "",
-              "Inclusief transport per trailer",
-              "Inclusief transport per 10x8",
-              "Inclusief transport per 10x4",
-              "Exclusief transport",
-              "Geladen op de auto",
-              "Geleverd op het werk"
+              "Inclusief transport per trailer.",
+              "Inclusief transport per 10x8.",
+              "Inclusief transport per 10x4.",
+              "Exclusief transport.",
+              "Geladen op de auto.",
+              "Geleverd op het werk."
             ]
           }
         ]
@@ -65,7 +66,7 @@
           "€ ",
           { "inputType": "number" },
           " per ",
-          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
           "</b>"
         ]
       }
@@ -81,21 +82,21 @@
             "options": [
               "",
               "Partijkeuring (AP04) ... van ... rapportnummer: ..., d.d. ... ",
-              "Rapportage dient nog door u te worden overhandigd ",
-              "Gecertificeerd conform BRL 9335-4 ",
-              "De grond dient vooraf AP04 gekeurd te zijn "
+              "Rapportage dient nog door u te worden overhandigd.",
+              "Gecertificeerd conform BRL 9335-4.",
+              "De grond dient vooraf AP04 gekeurd te zijn."
             ]
           },
           "<br>",
-          "Kwaliteitsklassen conform het Besluit bodemkwaliteit en het Handelingskader PFAS"
+          "Kwaliteitsklassen conform het Besluit bodemkwaliteit en het Handelingskader PFAS."
         ]
       },
       {
         "kolom1": "Bevoegd gezag",
         "kolom2": [
-          "Meldingstermijn minimaal 7 kalenderdagen",
+          "Meldingstermijn minimaal 7 kalenderdagen.",
           "<br>",
-          "Acceptatie van genoemde partij(en) geschiedt onder voorbehoud van goedkeuring door bevoegd gezag"
+          "Acceptatie van genoemde partij(en) geschiedt onder voorbehoud van goedkeuring door bevoegd gezag."
         ]
       },
       {
@@ -103,15 +104,15 @@
         "kolom2": [
           {
             "checkboxes": [
-              "Het materiaal dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn"
+              "Het materiaal dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
             ]
           },
           "<br>",
-          { "checkboxes": ["Voor klasse industrie grond geldt: fijn puin <5 cm maximaal 5%"] },
+          { "checkboxes": ["Voor klasse industrie grond geldt: fijn puin <5 cm maximaal 5%."] },
           "<br>",
           {
             "checkboxes": [
-              "Het materiaal dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop"
+              "Het materiaal dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop."
             ]
           }
         ]
@@ -123,8 +124,8 @@
           {
             "options": [
               "",
-              "weging van transport in tonnen op de loslocatie/laadlocatie",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)"
+              "weging van transport in tonnen op de loslocatie/laadlocatie.",
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
             ]
           }
         ]
@@ -133,20 +134,18 @@
         "kolom1": "Transport",
         "kolom2": [
           {
-            "options": ["", "Per trailer", "Per trailer mogelijk", "Per 10x4 / 8x4", "Op alle assen aangedreven auto's"]
+            "options": ["", "Per trailer.", "Per trailer mogelijk.", "Per 10x4 / 8x4.", "Op alle assen aangedreven auto's."]
           },
           "<br>",
           {
             "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
           },
-          " maximaal 10 minuten direct na aankomst",
+          " maximaal 10 minuten direct na aankomst.",
           "<br>",
-          { "checkboxes": ["Transportafstand bedraagt circa ... kilometer (enkele rit)"] },
+          { "checkboxes": ["Transportafstand bedraagt circa ... kilometer (enkele rit)."] },
           "<br>",
           {
-            "checkboxes": [
-              "Deze prijsaanbieding is opgesteld op basis van de huidige brandstofprijzen. (prijspeil 01-2025)"
-            ]
+            "checkboxes": ["Deze prijsaanbieding is opgesteld op basis van de huidige brandstofprijzen. (prijspeil 01-2025)."]
           }
         ]
       },
@@ -157,8 +156,9 @@
           { "inputType": "text" },
           " tot ",
           { "inputType": "text" },
+          ".",
           "<br>",
-          { "checkboxes": ["Planning in overleg"] },
+          { "checkboxes": ["Planning in overleg."] },
           "<br>",
           { "options": ["", "Circa", "Minimaal", "Maximaal"] },
           " ",
@@ -167,7 +167,7 @@
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           " per dag / totale hoeveelheid aaneengesloten ",
           { "options": ["", "afvoeren", "leveren"] },
-          " op basis van volle dagproducties van transport"
+          " op basis van volle dagproducties van transport."
         ]
       },
       {
@@ -175,7 +175,7 @@
         "kolom2": [
           "Reguliere werkdagen en werktijden ",
           { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
-          " uur"
+          " uur."
         ]
       },
       {
@@ -185,13 +185,13 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxes": ["Inclusief het verzorgen van digitale begeleidingsbrieven"] },
+          { "checkboxes": ["Inclusief het verzorgen van digitale begeleidingsbrieven."] },
           "<br>",
-          { "checkboxes": ["Inclusief het verzorgen van de melding/DSO verzoek voor het toepassen van grond"] },
+          { "checkboxes": ["Inclusief het verzorgen van de melding/DSO verzoek voor het toepassen van grond."] },
           "<br>",
-          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen"] },
+          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
           "<br>",
-          "Exclusief BTW"
+          "Exclusief BTW."
         ]
       },
       {
