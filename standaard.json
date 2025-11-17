@@ -20,7 +20,8 @@
         "kolom2": [
           {
             "options": ["", "Grond", "Zand voor zandbed", "Zand voor ophoging", "Klei", "Veen"]
-          }
+          },
+        "."
         ]
       },
       {
@@ -33,7 +34,8 @@
           " / ",
           { "inputType": "number" },
           " ",
-          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }
+          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          "."
         ]
       },
       {
@@ -52,7 +54,7 @@
               "Klasse sterk verontreinigd"
             ]
           },
-          " conform Besluit Bodemkwaliteit",
+          " conform Besluit Bodemkwaliteit.",
           "<br>",
           "PFAS dienen te voldoen aan ",
           {
@@ -69,7 +71,8 @@
               "4.9.1 toepassen in een niet-vrijliggende diepe plas (PFOS 3,7 µg/kg ds en overige PFAS 0,8 µg/kg ds)",
               "4.9.2 toepassen in een vrijliggende diepe plas (PFOS 1,1 µg/kg ds en overige PFAS 0,8 µg/kg ds)"
             ]
-          }
+          },
+        "."
         ]
       },
       {
@@ -83,7 +86,8 @@
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 10%",
               "De rapportage vermeldt ...% bodemvreemd materiaal bestaande uit ..."
             ]
-          }
+          },
+        "."
         ]
       },
       {
@@ -91,7 +95,7 @@
         "kolom2": [
           {
             "checkboxes": [
-              "Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging"
+              "Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging."
             ]
           }
         ]
@@ -102,12 +106,12 @@
           {
             "options": [
               "",
-              "Acceptatie, inclusief transport per trailer",
-              "Acceptatie, inclusief transport per 10x8",
-              "Acceptatie, inclusief transport per 10x4",
-              "Acceptatie, exclusief transport",
-              "Geladen op de auto",
-              "Geleverd op het werk"
+              "Acceptatie, inclusief transport per trailer.",
+              "Acceptatie, inclusief transport per 10x8.",
+              "Acceptatie, inclusief transport per 10x4.",
+              "Acceptatie, exclusief transport.",
+              "Geladen op de auto.",
+              "Geleverd op het werk."
             ]
           }
         ]
@@ -126,6 +130,7 @@
           { "inputType": "number" },
           " per ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          ".",
           "</b>"
         ]
       }
