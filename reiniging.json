@@ -98,9 +98,9 @@
       {
         "kolom1": "Bijzonderheden",
         "kolom2": [
-          {
-            "checkboxes": ["Voor acceptatie is aanvullend onderzoek noodzakelijk op ..."]
-          }
+          {"checkboxes": ["Geen]},
+          "<br>",
+          {"checkboxes": ["Voor acceptatie is aanvullend onderzoek noodzakelijk op ..."]}
         ]
       },
       {
