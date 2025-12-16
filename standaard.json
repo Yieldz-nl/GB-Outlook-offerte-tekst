@@ -40,7 +40,7 @@
           "€ ",
           { "inputTypeM": "number" },
           " per ",
-          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
           "</b>"
         ]
       }
@@ -63,11 +63,11 @@
           "Circa ",
           { "inputType": "number" },
           " ",
-          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           " / ",
           { "inputType": "number" },
           " ",
-          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
         ]
       },
       {
