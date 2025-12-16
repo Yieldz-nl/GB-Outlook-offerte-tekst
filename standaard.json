@@ -19,7 +19,7 @@
         "kolom1": "Transactie",
         "kolom2": [
           {
-            "options": [
+            "optionsM": [
               "",
               "Acceptatie, inclusief transport per trailer.",
               "Acceptatie, inclusief transport per 10x8.",
@@ -30,7 +30,7 @@
             ]
           },
           "<br>",
-          { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
+          { "optionsM": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
         ]
       },
       {
