@@ -89,9 +89,9 @@
       {
         "kolom1": "Bijzonderheden",
         "kolom2": [
-          {"checkboxTrue": ["Geen"]},
+          {"checkboxFalse": ["Geen"]},
           "<br>",
-          { "checkboxTrue": ["Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging."] }
+          { "checkboxFalse": ["Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging."] }
         ]
       },
       {
