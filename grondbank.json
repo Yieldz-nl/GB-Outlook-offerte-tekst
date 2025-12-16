@@ -128,13 +128,13 @@
         "kolom1": "Samenstelling",
         "kolom2": [
           {
-            "checkboxes": [
+            "checkboxTrue": [
               "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
             ]
           },
           "<br>",
           {
-            "checkboxes": [
+            "checkboxTrue": [
               "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop."
             ]
           }
@@ -174,9 +174,9 @@
           { "inputType": "text" },
           ".",
           "<br>",
-          { "checkboxes": ["Planning in overleg."] },
+          { "checkboxFalse": ["Planning in overleg."] },
           "<br>",
-          { "checkboxes": ["Op basis van volle dagproducties van transport."] }
+          { "checkboxFalse": ["Op basis van volle dagproducties van transport."] }
         ]
       },
       {
@@ -186,9 +186,9 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxes": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven."] },
+          { "checkboxTrue": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven."] },
           "<br>",
-          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
+          { "checkboxTrue": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
           "<br>",
           "Exclusief BTW."
         ]
