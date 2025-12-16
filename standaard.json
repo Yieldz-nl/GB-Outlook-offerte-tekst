@@ -3,7 +3,7 @@
     "title": "INTRODUCTIE",
     "text": [
       "Beste ",
-      { "inputType": "text" },
+      { "inputTypeS": "text" },
       ",",
       "<br>",
       "<br>",
@@ -61,11 +61,11 @@
         "kolom1": "Hoeveelheid",
         "kolom2": [
           "Circa ",
-          { "inputType": "number" },
+          { "inputTypeS": "number" },
           " ",
           { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           " / ",
-          { "inputType": "number" },
+          { "inputTypeS": "number" },
           " ",
           { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
         ]
@@ -74,7 +74,7 @@
         "kolom1": "Kwaliteit",
         "kolom2": [
           {
-            "options": [
+            "optionsM": [
               "",
               "De partij dient na partijkeuring te voldoen aan klasse landbouw/natuur (schoon en vrij toepasbaar)",
               "De partij dient na partijkeuring te voldoen aan maximaal klasse wonen",
@@ -90,7 +90,7 @@
           "<br>",
           "PFAS dienen te voldoen aan ",
           {
-            "options": [
+            "optionsM": [
               "",
               "de detectiegrens van 0,1 µg/kg ds.",
               "4.1 landbouw/natuur  (PFOA 1,9 µg/kg ds en overige PFAS 1,4 µg/kg ds).",
@@ -187,7 +187,7 @@
           },
           "<br>",
           {
-            "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
+            "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
           },
           " maximaal 10 minuten direct na aankomst.",
           "<br>",
@@ -215,7 +215,7 @@
         "kolom1": "Werktijden",
         "kolom2": [
           "Reguliere werkdagen en werktijden ",
-          { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
+          { "optionsS": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           " uur."
         ]
       },
