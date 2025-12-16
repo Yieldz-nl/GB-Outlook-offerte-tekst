@@ -210,7 +210,7 @@
           { "inputType": "text" },
           ".",
           "<br>",
-          { "checkboxTrue": ["Planning in overleg."] },
+          { "checkboxFalse": ["Planning in overleg."] },
           "<br>",
           { "options": ["", "Circa", "Minimaal", "Maximaal"] },
           " ",
