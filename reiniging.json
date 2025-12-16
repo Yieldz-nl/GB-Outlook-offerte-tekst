@@ -79,17 +79,17 @@
       {
         "kolom1": "Verontreiniging",
         "kolom2": [
-          { "checkboxes": ["Minerale olie."] },
+          { "checkboxFalse": ["Minerale olie."] },
           "<br>",
-          { "checkboxes": ["PAK."] },
+          { "checkboxFalse": ["PAK."] },
           "<br>",
-          { "checkboxes": ["Zware metalen."] },
+          { "checkboxFalse": ["Zware metalen."] },
           "<br>",
-          { "checkboxes": ["Asbest."] },
+          { "checkboxFalse": ["Asbest."] },
           "<br>",
-          { "checkboxes": ["PFAS."] },
+          { "checkboxFalse": ["PFAS."] },
           "<br>",
-          { "checkboxes": ["..."] }
+          { "checkboxFalse": ["..."] }
         ]
       },
       {
@@ -113,9 +113,9 @@
       {
         "kolom1": "Bijzonderheden",
         "kolom2": [
-          {"checkboxes": ["Geen"]},
+          {"checkboxFalse": ["Geen"]},
           "<br>",
-          {"checkboxes": ["Voor acceptatie is aanvullend onderzoek noodzakelijk op ..."]}
+          {"checkboxFalse": ["Voor acceptatie is aanvullend onderzoek noodzakelijk op ..."]}
         ]
       },
       {
@@ -155,13 +155,13 @@
           },
           "<br>",
           {
-            "checkboxes": [
+            "checkboxTrue": [
               "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
             ]
           },
           "<br>",
           {
-            "checkboxes": [
+            "checkboxTrue": [
               "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop."
             ]
           }
@@ -192,13 +192,13 @@
           },
           " maximaal 10 minuten direct na aankomst.",
           "<br>",
-          { "checkboxes": ["Transportafstand bedraagt circa ... kilometer (enkele rit)."] },
+          { "checkboxFalse": ["Transportafstand bedraagt circa ... kilometer (enkele rit)."] },
           "<br>",
           {
-            "checkboxes": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
+            "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
           },
           {
-            "checkboxes": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefwijzigingen. Let op: per juli 2026 worden tariefwijzigingen verwacht door de invoering van de vrachtwagenheffing."]
+            "checkboxFalse": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefwijzigingen. Let op: per juli 2026 worden tariefwijzigingen verwacht door de invoering van de vrachtwagenheffing."]
           }
         ]
       },
@@ -211,7 +211,7 @@
           { "inputType": "text" },
           ".",
           "<br>",
-          { "checkboxes": ["Planning in overleg."] },
+          { "checkboxFalse": ["Planning in overleg."] },
           "<br>",
           { "options": ["", "Circa", "Minimaal", "Maximaal"] },
           " ",
@@ -239,7 +239,7 @@
         "kolom1": "Bijzonderheden",
         "kolom2": [
           {
-            "checkboxes": [
+            "checkboxFalse": [
               "Indien het materiaal afwijkingen vertoont met de vooraf overlegde gegevens en beschreven slibgehaltes zal een verrekening plaatsvinden van € 1,50 per massa % per ton."
             ]
           }
@@ -252,11 +252,11 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxes": ["Inclusief het verzorgen van digitale begeleidingsbrieven."] },
+          { "checkboxTrue": ["Inclusief het verzorgen van digitale begeleidingsbrieven."] },
           "<br>",
-          { "checkboxes": ["Inclusief het verzorgen van een afvalstroomnummer."] },
+          { "checkboxTrue": ["Inclusief het verzorgen van een afvalstroomnummer."] },
           "<br>",
-          { "checkboxes": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
+          { "checkboxTrue": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
           "<br>",
           "Exclusief BTW."
         ]
