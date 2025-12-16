@@ -16,7 +16,7 @@
     "title": "DEELPARTIJ",
     "rows": [
       {
-        "kolom1": "Levering",
+        "kolom1": "Transactie",
         "kolom2": [
           {
             "options": [
@@ -28,12 +28,7 @@
               "Geladen op de auto.",
               "Geleverd op het werk."
             ]
-          }
-        ]
-      },
-      {
-        "kolom1": "Betaalwijze",
-        "kolom2": [
+          },
           { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
         ]
       },
