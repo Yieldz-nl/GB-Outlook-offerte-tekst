@@ -19,7 +19,7 @@
         "kolom1": "Transactie",
         "kolom2": [
           {
-            "optionsM": [
+            "optionsL": [
               "",
               "Acceptatie, inclusief transport per trailer.",
               "Acceptatie, inclusief transport per 10x8.",
@@ -30,7 +30,7 @@
             ]
           },
           "<br>",
-          { "optionsM": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
+          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
         ]
       },
       {
@@ -53,7 +53,7 @@
         "kolom1": "Materiaal",
         "kolom2": [
           {
-            "options": ["", "Grond.", "Zand voor zandbed.", "Zand voor ophoging.", "Klei.", "Veen."]
+            "optionsM": ["", "Grond.", "Zand voor zandbed.", "Zand voor ophoging.", "Klei.", "Veen."]
           }
         ]
       },
@@ -110,7 +110,7 @@
         "kolom1": "Bijmenging",
         "kolom2": [
           {
-            "options": [
+            "optionsL": [
               "",
               "De partij dient vrij te zijn van puin / bijmenging.",
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 5%.",
@@ -136,7 +136,7 @@
         "kolom1": "Bewijsmiddel",
         "kolom2": [
           {
-            "options": [
+            "optionsL": [
               "",
               "Partijkeuring (AP04) ... van ... rapportnummer: ..., d.d. ... ",
               "Rapportage dient nog te worden overhandigd.",
@@ -170,7 +170,7 @@
         "kolom2": [
           "Door ",
           {
-            "options": [
+            "optionsL": [
               "",
               "weging van transport in tonnen op de loslocatie/laadlocatie.",
               "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
@@ -183,7 +183,7 @@
         "kolom2": [
           "Per ",
           {
-            "options": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "op alle assen aangedreven auto's."]
+            "optionsM": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "op alle assen aangedreven auto's."]
           },
           "<br>",
           {
