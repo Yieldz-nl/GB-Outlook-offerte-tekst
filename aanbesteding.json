@@ -27,25 +27,6 @@
         "kolom2": [{ "options": ["", "Afvoeren.", "Levering.", "Acceptatie."] }]
       },
       {
-        "kolom1": "Kwaliteit",
-        "kolom2": [
-          {
-            "options": [
-              "",
-              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
-              "Klasse wonen.",
-              "Klasse industrie (en voldoet aan emissiearme grond).",
-              "Klasse matig verontreinigd.",
-              "Klasse sterk verontreinigd."
-            ]
-          }
-        ]
-      },
-      {
-        "kolom1": "Gewicht",
-        "kolom2": ["Uitgaand van ", { "inputType": "number" }, " m³/ton."]
-      },
-      {
         "kolom1": "Transport",
         "kolom2": [
           {
@@ -77,6 +58,25 @@
   {
     "title": "UITGANGSPUNTEN",
     "rows": [
+      {
+        "kolom1": "Kwaliteit",
+        "kolom2": [
+          {
+            "options": [
+              "",
+              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
+              "Klasse wonen.",
+              "Klasse industrie (en voldoet aan emissiearme grond).",
+              "Klasse matig verontreinigd.",
+              "Klasse sterk verontreinigd."
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Gewicht",
+        "kolom2": ["Uitgaand van ", { "inputType": "number" }, " m³/ton."]
+      },
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
