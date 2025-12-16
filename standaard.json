@@ -204,15 +204,7 @@
           "<br>",
           { "checkboxFalse": ["Planning in overleg."] },
           "<br>",
-          { "options": ["", "Circa", "Minimaal", "Maximaal"] },
-          " ",
-          { "inputType": "number" },
-          " ",
-          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          " per dag / totale hoeveelheid aaneengesloten",
-          " ",
-          { "options": ["", "afvoeren", "leveren"] },
-          " op basis van volle dagproducties van transport."
+          { "checkboxFalse": [{ "options": ["", "Circa", "Minimaal", "Maximaal"] }, " ", { "inputType": "number" }, " ", { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }, " per dag / totale hoeveelheid aaneengesloten", " ", { "options": ["", "afvoeren", "leveren"] }, " op basis van volle dagproducties van transport."]}
         ]
       },
       {
