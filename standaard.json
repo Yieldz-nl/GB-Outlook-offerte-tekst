@@ -29,6 +29,7 @@
               "Geleverd op het werk."
             ]
           },
+          "<br>",
           { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
         ]
       },
