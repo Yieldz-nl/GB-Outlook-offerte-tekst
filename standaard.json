@@ -38,7 +38,7 @@
         "kolom2": [
           "<b>",
           "€ ",
-          { "inputType": "number" },
+          { "inputTypeM": "number" },
           " per ",
           { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
           "</b>"
