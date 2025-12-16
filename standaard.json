@@ -125,7 +125,11 @@
         "kolom2": [
           {"checkboxFalse": ["Geen"]},
           "<br>",
-          { "checkboxFalse": ["Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging."] }
+          { "checkboxFalse": ["Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging."] },
+          "<br>",
+          { "checkboxFalse": [{ "inputType": "text" }]},
+          "<br>",
+          { "checkboxFalse": [{ "inputType": "text" }]}
         ]
       },
       {
