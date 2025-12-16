@@ -16,6 +16,21 @@
     "title": "DEELPARTIJ",
     "rows": [
       {
+        "kolom1": "Betaalwijze",
+        "kolom2": [
+          { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
+        ]
+      },
+      {
+        "kolom1": "Prijs",
+        "kolom2": ["<b>", "€ ", { "inputType": "number" }, " per ton.", "</b>"]
+      }
+    ]
+  },
+  {
+    "title": "UITGANGSPUNTEN",
+    "rows": [
+      {
         "kolom1": "Materiaal",
         "kolom2": [
           {
@@ -117,21 +132,6 @@
           }
         ]
       },
-      {
-        "kolom1": "Betaalwijze",
-        "kolom2": [
-          { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
-        ]
-      },
-      {
-        "kolom1": "Prijs",
-        "kolom2": ["<b>", "€ ", { "inputType": "number" }, " per ton.", "</b>"]
-      }
-    ]
-  },
-  {
-    "title": "UITGANGSPUNTEN",
-    "rows": [
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
