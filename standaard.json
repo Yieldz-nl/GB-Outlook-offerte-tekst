@@ -16,6 +16,44 @@
     "title": "DEELPARTIJ",
     "rows": [
       {
+        "kolom1": "Levering",
+        "kolom2": [
+          {
+            "options": [
+              "",
+              "Acceptatie, inclusief transport per trailer.",
+              "Acceptatie, inclusief transport per 10x8.",
+              "Acceptatie, inclusief transport per 10x4.",
+              "Acceptatie, exclusief transport.",
+              "Geladen op de auto.",
+              "Geleverd op het werk."
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Betaalwijze",
+        "kolom2": [
+          { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
+        ]
+      },
+      {
+        "kolom1": "Prijs",
+        "kolom2": [
+          "<b>",
+          "€ ",
+          { "inputType": "number" },
+          " per ",
+          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
+          "</b>"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "UITGANGSPUNTEN",
+    "rows": [
+      {
         "kolom1": "Materiaal",
         "kolom2": [
           {
@@ -94,44 +132,6 @@
           { "checkboxFalse": ["Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging."] }
         ]
       },
-      {
-        "kolom1": "Levering",
-        "kolom2": [
-          {
-            "options": [
-              "",
-              "Acceptatie, inclusief transport per trailer.",
-              "Acceptatie, inclusief transport per 10x8.",
-              "Acceptatie, inclusief transport per 10x4.",
-              "Acceptatie, exclusief transport.",
-              "Geladen op de auto.",
-              "Geleverd op het werk."
-            ]
-          }
-        ]
-      },
-      {
-        "kolom1": "Betaalwijze",
-        "kolom2": [
-          { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
-        ]
-      },
-      {
-        "kolom1": "Prijs",
-        "kolom2": [
-          "<b>",
-          "€ ",
-          { "inputType": "number" },
-          " per ",
-          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
-          "</b>"
-        ]
-      }
-    ]
-  },
-  {
-    "title": "UITGANGSPUNTEN",
-    "rows": [
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
