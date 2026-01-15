@@ -192,7 +192,7 @@
           },
           " maximaal 10 minuten direct na aankomst.",
           "<br>",
-          { "checkboxFalse": ["Transportafstand bedraagt circa ... kilometer (enkele rit)."] },
+          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputType": "number" }," kilometer (enkele rit)."] },
           "<br>",
           {
             "checkboxTrue": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
