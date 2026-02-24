@@ -27,6 +27,21 @@
         "kolom2": [{ "options": ["", "Afvoeren.", "Levering.", "Acceptatie."] }]
       },
       {
+        "kolom1": "Kwaliteit",
+        "kolom2": [
+          {
+            "options": [
+              "",
+              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
+              "Klasse wonen.",
+              "Klasse industrie (en voldoet aan emissiearme grond).",
+              "Klasse matig verontreinigd.",
+              "Klasse sterk verontreinigd."
+            ]
+          }
+        ]
+      },
+      {
         "kolom1": "Transport",
         "kolom2": [
           {
@@ -58,21 +73,6 @@
   {
     "title": "UITGANGSPUNTEN",
     "rows": [
-      {
-        "kolom1": "Kwaliteit",
-        "kolom2": [
-          {
-            "options": [
-              "",
-              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
-              "Klasse wonen.",
-              "Klasse industrie (en voldoet aan emissiearme grond).",
-              "Klasse matig verontreinigd.",
-              "Klasse sterk verontreinigd."
-            ]
-          }
-        ]
-      },
       {
         "kolom1": "Gewicht",
         "kolom2": ["Uitgaand van ", { "inputType": "number" }, " m³/ton."]
@@ -106,7 +106,7 @@
         "kolom2": [
           {
             "checkboxTrue": [
-              "Het materiaal dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
+              "Het materiaal dient droog/steekvast (3 meter opzetbaar), vrij van asbest en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
             ]
           },
           "<br>",
@@ -136,7 +136,7 @@
         "kolom1": "Transport",
         "kolom2": [
           {
-            "options": ["", "Per trailer.", "Per trailer mogelijk.", "Per 10x4 / 8x4.", "Op alle assen aangedreven auto's."]
+            "options": ["", "Per trailer.", "Per trailer mogelijk.", "Per 10x4 / 8x4.", "Per 10x8 / 8x8.", "Op alle assen aangedreven auto's."]
           },
           "<br>",
           {
@@ -180,7 +180,7 @@
         "kolom1": "Werktijden",
         "kolom2": [
           "Reguliere werkdagen en werktijden ",
-          { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
+          { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "06:30 - 16:00", "07:00 - 16:00", "07:00 - 16:30", "07:00 - 17:00"] },
           " uur."
         ]
       },

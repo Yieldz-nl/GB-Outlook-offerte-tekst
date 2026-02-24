@@ -16,6 +16,30 @@
     "title": "AANBOD",
     "rows": [
       {
+        "kolom1": "Hoeveelheid",
+        "kolom2": [
+          { "inputType": "number" },
+          " m³/ton.",
+          "<br>",
+          "Hoeveelheidsbepaling door ",
+          {
+            "options": [
+              "",
+              "weging van transport in tonnen op de loslocatie/laadlocatie.",
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
+            ]
+          }
+        ]
+      },
+      {
+        "kolom1": "Kwaliteit",
+        "kolom2": [
+          "De partij dient na inkeuring te voldoen aan maximaal klasse ",
+          { "options": ["", "landbouw/natuur", "wonen", "industrie"] },
+          " conform Besluit Bodemkwaliteit en Handelingskader PFAS."
+        ]
+      },
+      {
         "kolom1": "Prijs grond",
         "kolom2": [
           "<b>",
@@ -42,7 +66,7 @@
   {
     "title": "UITGANGSPUNTEN",
     "rows": [
-            {
+      {
         "kolom1": "Kwaliteit indicatief",
         "kolom2": [
           {
@@ -90,39 +114,15 @@
         ]
       },
       {
-        "kolom1": "Hoeveelheid",
-        "kolom2": [
-          { "inputType": "number" },
-          " m³/ton.",
-          "<br>",
-          "Hoeveelheidsbepaling door ",
-          {
-            "options": [
-              "",
-              "weging van transport in tonnen op de loslocatie/laadlocatie.",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
-            ]
-          }
-        ]
-      },
-      {
         "kolom1": "Bewijsmiddel",
         "kolom2": ["Op de grondbank wordt een indicatieve keuring ingezet."]
-      },
-      {
-        "kolom1": "Kwaliteit",
-        "kolom2": [
-          "De partij dient na inkeuring te voldoen aan maximaal klasse ",
-          { "options": ["", "landbouw/natuur", "wonen", "industrie"] },
-          " conform Besluit Bodemkwaliteit en Handelingskader PFAS."
-        ]
       },
       {
         "kolom1": "Samenstelling",
         "kolom2": [
           {
             "checkboxTrue": [
-              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
+              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
             ]
           },
           "<br>",

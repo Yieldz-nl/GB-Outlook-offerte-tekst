@@ -1,4 +1,4 @@
-[ 
+[
   {
     "title": "INTRODUCTIE",
     "text": [
@@ -14,40 +14,6 @@
   },
   {
     "title": "DEELPARTIJ",
-    "rows": [
-      {
-        "kolom1": "Transactie",
-        "kolom2": [
-          {
-            "optionsL": [
-              "",
-              "Acceptatie, inclusief transport per trailer.",
-              "Acceptatie, inclusief transport per 10x8.",
-              "Acceptatie, inclusief transport per 10x4.",
-              "Acceptatie, exclusief transport.",
-              "Geladen op de auto.",
-              "Geleverd op het werk."
-            ]
-          },
-          "<br>",
-          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
-        ]
-      },
-      {
-        "kolom1": "Prijs",
-        "kolom2": [
-          "<b>",
-          "€ ",
-          { "inputTypeM": "number" },
-          " per ",
-          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
-          "</b>"
-        ]
-      }
-    ]
-  },
-  {
-    "title": "UITGANGSPUNTEN",
     "rows": [
       {
         "kolom1": "Materiaal",
@@ -107,19 +73,39 @@
         ]
       },
       {
-        "kolom1": "Bijmenging",
+        "kolom1": "Verrekening",
         "kolom2": [
           {
             "optionsL": [
               "",
-              "De partij dient vrij te zijn van puin / bijmenging.",
-              "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 5%.",
-              "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 10%.",
-              "De rapportage vermeldt ...% bodemvreemd materiaal bestaande uit ..."
+              "Acceptatie, inclusief transport per trailer.",
+              "Acceptatie, inclusief transport per 10x8.",
+              "Acceptatie, inclusief transport per 10x4.",
+              "Acceptatie, exclusief transport.",
+              "Geladen op de auto.",
+              "Geleverd op het werk."
             ]
-          }
+          },
+          "<br>",
+          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
         ]
       },
+      {
+        "kolom1": "Prijs",
+        "kolom2": [
+          "<b>",
+          "€ ",
+          { "inputTypeM": "number" },
+          " per ",
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
+          "</b>"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "UITGANGSPUNTEN",
+    "rows": [
       {
         "kolom1": "Bijzonderheden",
         "kolom2": [
@@ -157,11 +143,21 @@
         "kolom1": "Samenstelling",
         "kolom2": [
           {
-            "checkboxTrue": ["De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest, vrij van grof puin (fijn puin <5 cm maximaal 5%) en vrij van overige bodemvreemde bestanddelen en geuren te zijn."]
+            "checkboxTrue": ["De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest en vrij van overige bodemvreemde bestanddelen en geuren te zijn."]
           },
           "<br>",
           {
             "checkboxTrue": ["De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop."]
+          },
+          "<br>",
+          {
+            "optionsL": [
+              "",
+              "De partij dient vrij te zijn van puin / bijmenging.",
+              "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 5%.",
+              "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 10%.",
+              "De rapportage vermeldt ...% bodemvreemd materiaal bestaande uit ..."
+            ]
           }
         ]
       },
@@ -183,7 +179,7 @@
         "kolom2": [
           "Per ",
           {
-            "optionsM": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "op alle assen aangedreven auto's."]
+            "optionsM": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "10x8 / 8x8.", "op alle assen aangedreven auto's."]
           },
           "<br>",
           {
@@ -216,7 +212,7 @@
         "kolom1": "Werktijden",
         "kolom2": [
           "Reguliere werkdagen en werktijden ",
-          { "optionsS": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
+          { "optionsS": ["", "06:00 - 16:00", "06:00 - 17:00", "06:30 - 16:00", "07:00 - 16:00", "07:00 - 16:30", "07:00 - 17:00"] },
           " uur."
         ]
       },
