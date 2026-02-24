@@ -215,7 +215,7 @@
           { "inputType": "number" },
           " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          " per dag / totale hoeveelheid aaneengesloten ",
+          " per dag / totale hoeveelheid aaneengesloten",
           { "options": ["", "afvoeren", "leveren"] },
           " op basis van volle dagproducties van transport."
         ]

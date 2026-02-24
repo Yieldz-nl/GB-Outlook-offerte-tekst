@@ -42,10 +42,10 @@
           {
             "optionsM": [
               "",
-              "De partij dient na partijkeuring te voldoen aan klasse landbouw/natuur (schoon en vrij toepasbaar)",
+              "De partij dient na partijkeuring te voldoen aan klasse Landbouw/Natuur (schoon en vrij toepasbaar)",
               "De partij dient na partijkeuring te voldoen aan maximaal klasse wonen",
               "De partij dient na partijkeuring te voldoen aan maximaal klasse industrie (en dient te voldoen aan emissiearme grond)",
-              "Klasse landbouw/natuur (schoon en vrij toepasbaar)",
+              "Klasse Landbouw/Natuur (schoon en vrij toepasbaar)",
               "Klasse wonen",
               "Klasse industrie (en voldoet aan emissiearme grond)",
               "Klasse matig verontreinigd",
@@ -169,7 +169,7 @@
             "optionsM": [
               "",
               "weging van transport in tonnen op de loslocatie/laadlocatie.",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
             ]
           }
         ]

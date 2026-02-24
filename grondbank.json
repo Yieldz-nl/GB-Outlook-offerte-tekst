@@ -26,7 +26,7 @@
             "options": [
               "",
               "weging van transport in tonnen op de loslocatie/laadlocatie.",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
             ]
           }
         ]
@@ -35,8 +35,20 @@
         "kolom1": "Kwaliteit",
         "kolom2": [
           "De partij dient na inkeuring te voldoen aan maximaal klasse ",
-          { "options": ["", "landbouw/natuur", "wonen", "industrie"] },
-          " conform Besluit Bodemkwaliteit en Handelingskader PFAS."
+          { "options": ["", "Landbouw/Natuur", "wonen", "industrie"] },
+          " conform Besluit Bodemkwaliteit en Handelingskader PFAS.",
+          "<br>",
+          "PFAS dienen te voldoen aan ",
+          {
+            "options": [
+              "",
+              "de detectiegrens van 0,1 µg/kg ds.",
+              "4.1 landbouw/natuur  (PFOA 1,9 µg/kg ds en overige PFAS 1,4 µg/kg ds).",
+              "4.1 wonen of industrie (PFOA 7 µg/kg ds en overige PFAS 3 µg/kg ds).",
+              "4.3 grootschalig toepassen (PFOA 7 µg/kg ds en overige PFAS 3 µg/kg ds).",
+              "4.4 grondwaterbeschermingsgebieden."
+            ]
+          }
         ]
       },
       {
@@ -72,7 +84,7 @@
           {
             "options": [
               "",
-              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
+              "Klasse Landbouw/Natuur (schoon en vrij toepasbaar).",
               "Klasse wonen.",
               "Klasse industrie (en voldoet aan emissiearme grond)."
             ]

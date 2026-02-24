@@ -32,11 +32,29 @@
           {
             "options": [
               "",
-              "Klasse landbouw/natuur (schoon en vrij toepasbaar).",
+              "Klasse Landbouw/Natuur (schoon en vrij toepasbaar).",
               "Klasse wonen.",
               "Klasse industrie (en voldoet aan emissiearme grond).",
               "Klasse matig verontreinigd.",
               "Klasse sterk verontreinigd."
+            ]
+          },
+          " conform Besluit Bodemkwaliteit.",
+          "<br>",
+          "PFAS dienen te voldoen aan ",
+          {
+            "options": [
+              "",
+              "de detectiegrens van 0,1 µg/kg ds.",
+              "4.1 landbouw/natuur  (PFOA 1,9 µg/kg ds en overige PFAS 1,4 µg/kg ds).",
+              "4.1 wonen of industrie (PFOA 7 µg/kg ds en overige PFAS 3 µg/kg ds).",
+              "4.3 grootschalig toepassen (PFOA 7 µg/kg ds en overige PFAS 3 µg/kg ds).",
+              "4.4 grondwaterbeschermingsgebieden.",
+              "4.8.1 baggerspecie in hetzelfde oppervlaktewaterlichaam (excl. diepe plas).",
+              "4.8.2 toepassen in een ander oppervlaktelichaam rijkswater (excl. diepe plas) (PFOS 3,7 µg/kg ds en overige PFAS 0,8 µg/kg ds).",
+              "4.8.2 toepassen in een ander oppervlaktelichaam anders (excl. diepe plas) (PFOS 1,1 µg/kg ds en overige PFAS 0,8 µg/kg ds).",
+              "4.9.1 toepassen in een niet-vrijliggende diepe plas (PFOS 3,7 µg/kg ds en overige PFAS 0,8 µg/kg ds).",
+              "4.9.2 toepassen in een vrijliggende diepe plas (PFOS 1,1 µg/kg ds en overige PFAS 0,8 µg/kg ds)."
             ]
           }
         ]
@@ -127,7 +145,7 @@
             "options": [
               "",
               "weging van transport in tonnen op de loslocatie/laadlocatie.",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³.)"
+              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
             ]
           }
         ]
@@ -171,7 +189,7 @@
           { "inputType": "number" },
           " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          " per dag / totale hoeveelheid aaneengesloten ",
+          " per dag / totale hoeveelheid aaneengesloten",
           { "options": ["", "afvoeren", "leveren"] },
           " op basis van volle dagproducties van transport."
         ]
