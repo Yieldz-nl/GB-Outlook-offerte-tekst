@@ -191,7 +191,10 @@
           { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputType": "number" }," kilometer (enkele rit)."] },
           "<br>",
           {
-            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
+            "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
+          },
+          {
+            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € 1,70 per liter; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
           },
           "<br>",
           {
