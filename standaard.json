@@ -199,7 +199,9 @@
           "<br>",
           {
             "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefwijzigingen. Let op: per juli 2026 worden tariefwijzigingen verwacht door de invoering van de vrachtwagenheffing."]
-          }
+          },
+          "<br>",
+          { "checkboxFalse": [{ "inputTypeL": "text" }]}
         ]
       },
       {
