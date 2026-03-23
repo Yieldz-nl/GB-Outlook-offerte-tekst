@@ -64,7 +64,7 @@
       {
         "kolom1": "Verrekening",
         "kolom2": [
-          { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
+          { "options": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ...","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan ..."] }
         ]
       },
       {
