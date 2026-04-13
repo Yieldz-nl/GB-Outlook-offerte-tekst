@@ -87,7 +87,7 @@
             ]
           },
           "<br>",
-          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ..."] }
+          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ...","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan ..."] }
         ]
       },
       {
@@ -188,12 +188,14 @@
           },
           "<br>",
           {
-            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € 1,70 per liter; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
+            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € 1,70 per liter, conform de TLN-index; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
           },
           "<br>",
           {
             "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefwijzigingen. Let op: per juli 2026 worden tariefwijzigingen verwacht door de invoering van de vrachtwagenheffing."]
-          }
+          },
+          "<br>",
+          { "checkboxFalse": [{ "inputTypeL": "text" }]}
         ]
       },
       {
