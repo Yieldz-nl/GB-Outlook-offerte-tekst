@@ -206,11 +206,7 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          "Aanvoerperiode: van ",
-          { "inputType": "text" },
-          " tot ",
-          { "inputType": "text" },
-          ".",
+          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputType": "text" }, " tot ", { "inputType": "text" }, "."]},
           "<br>",
           { "checkboxFalse": ["Planning in overleg."] },
           "<br>",

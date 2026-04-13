@@ -15,38 +15,51 @@
   {
     "title": "AANBOD",
     "rows": [
-      {
+     {
         "kolom1": "Hoeveelheid",
         "kolom2": [
-          { "inputType": "number" },
-          " m³/ton.",
-          "<br>",
-          "Hoeveelheidsbepaling door ",
-          {
-            "options": [
-              "",
-              "weging van transport in tonnen op de loslocatie/laadlocatie.",
-              "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
-            ]
-          }
+          "Circa ",
+          { "inputTypeS": "number" },
+          " ",
+          { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          " / ",
+          { "inputTypeS": "number" },
+          " ",
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
         ]
       },
       {
         "kolom1": "Kwaliteit",
         "kolom2": [
-          "De partij dient na inkeuring te voldoen aan maximaal klasse ",
-          { "options": ["", "Landbouw/Natuur", "wonen", "industrie"] },
-          " conform Besluit Bodemkwaliteit en Handelingskader PFAS.",
+          {
+            "optionsM": [
+              "",
+              "De partij dient na partijkeuring te voldoen aan klasse Landbouw/Natuur (schoon en vrij toepasbaar)",
+              "De partij dient na partijkeuring te voldoen aan maximaal klasse wonen",
+              "De partij dient na partijkeuring te voldoen aan maximaal klasse industrie (en dient te voldoen aan emissiearme grond)",
+              "Klasse Landbouw/Natuur (schoon en vrij toepasbaar)",
+              "Klasse wonen",
+              "Klasse industrie (en voldoet aan emissiearme grond)",
+              "Klasse matig verontreinigd",
+              "Klasse sterk verontreinigd"
+            ]
+          },
+          " conform Besluit Bodemkwaliteit.",
           "<br>",
           "PFAS dienen te voldoen aan ",
           {
-            "options": [
+            "optionsM": [
               "",
               "de detectiegrens van 0,1 µg/kg ds.",
               "4.1 landbouw/natuur  (PFOA 1,9 µg/kg ds en overige PFAS 1,4 µg/kg ds).",
               "4.1 wonen of industrie (PFOA 7 µg/kg ds en overige PFAS 3 µg/kg ds).",
               "4.3 grootschalig toepassen (PFOA 7 µg/kg ds en overige PFAS 3 µg/kg ds).",
-              "4.4 grondwaterbeschermingsgebieden."
+              "4.4 grondwaterbeschermingsgebieden.",
+              "4.8.1 baggerspecie in hetzelfde oppervlaktewaterlichaam (excl. diepe plas).",
+              "4.8.2 toepassen in een ander oppervlaktelichaam rijkswater (excl. diepe plas) (PFOS 3,7 µg/kg ds en overige PFAS 0,8 µg/kg ds).",
+              "4.8.2 toepassen in een ander oppervlaktelichaam anders (excl. diepe plas) (PFOS 1,1 µg/kg ds en overige PFAS 0,8 µg/kg ds).",
+              "4.9.1 toepassen in een niet-vrijliggende diepe plas (PFOS 3,7 µg/kg ds en overige PFAS 0,8 µg/kg ds).",
+              "4.9.2 toepassen in een vrijliggende diepe plas (PFOS 1,1 µg/kg ds en overige PFAS 0,8 µg/kg ds)."
             ]
           }
         ]
@@ -92,12 +105,6 @@
         ]
       },
       {
-        "kolom1": "Transport",
-        "kolom2": [
-          { "options": ["", "Transport per trailer.", "Transport per 10x8.", "Transport per 10x4."] }
-        ]
-      },
-      {
         "kolom1": "Grondbanklocatie",
         "kolom2": [
           {
@@ -126,6 +133,18 @@
         ]
       },
       {
+        "kolom1": "Bijzonderheden",
+        "kolom2": [
+          {"checkboxFalse": ["Geen"]},
+          "<br>",
+          { "checkboxFalse": ["Chloride < 200 mg / kg ds. Voor acceptatie is aanvullend onderzoek noodzakelijk op: ijzer en fosfor (P - totaal) / uitloging."] },
+          "<br>",
+          { "checkboxFalse": [{ "inputTypeL": "text" }]},
+          "<br>",
+          { "checkboxFalse": [{ "inputTypeL": "text" }]}
+        ]
+      },
+      {
         "kolom1": "Bewijsmiddel",
         "kolom2": ["Op de grondbank wordt een indicatieve keuring ingezet."]
       },
@@ -133,15 +152,26 @@
         "kolom1": "Samenstelling",
         "kolom2": [
           {
-            "checkboxTrue": [
-              "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
+            "checkboxTrue": ["De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest en vrij van overige bodemvreemde bestanddelen en geuren te zijn."]
+          },
+          "<br>",
+          {
+            "checkboxTrue": ["De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop."]
+          },
+          "<br>",
+          {
+            "optionsL": [
+              "",
+              "De partij dient vrij te zijn van puin / bijmenging.",
+              "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 5%.",
+              "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 10%.",
+              "De partij dient vrij te zijn van puin: Enkele bakstenen in de partij is toelaatbaar. Indien op de grondbank blijkt dat de partij uitgezeefd/-riekt dient te worden, zullen de kosten voor het uitzeven van de partij aan u doorberekend worden.",
+              "De rapportage vermeldt ...% bodemvreemd materiaal bestaande uit ..."
             ]
           },
           "<br>",
           {
-            "checkboxTrue": [
-              "De partij dient vrij te zijn van invasieve uitheemse plantensoorten, waaronder Reuzenberenklauw en Japanse Duizendknoop."
-            ]
+            "checkboxTrue": ["Overige niet genormeerde stoffen dienen lager dan de detectiegrens te zijn."]
           }
         ]
       },
@@ -161,23 +191,29 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "De laadlocatie is bereikbaar voor transport per ",
-          { "options": ["", "trailer.", "10x4."] },
+          { "checkboxTrue": ["Per ", { "optionsM": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "10x8 / 8x8.", "op alle assen aangedreven auto's."] }] },
           "<br>",
-          "De loslocatie is bereikbaar voor transport per ",
-          { "options": ["", "trailer.", "10x4."] },
+          { "checkboxTrue": [{ "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"] }, " maximaal 10 minuten direct na aankomst."] },
           "<br>",
-          "Laadtijd maximaal 10 minuten direct na aankomst."
+          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputType": "number" }," kilometer (enkele rit)."] },
+          "<br>",
+          {
+            "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
+          },
+          "<br>",
+          {
+            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € 1,70 per liter; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
+          },
+          "<br>",
+          {
+            "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefwijzigingen. Let op: per juli 2026 worden tariefwijzigingen verwacht door de invoering van de vrachtwagenheffing."]
+          }
         ]
       },
       {
         "kolom1": "Planning",
         "kolom2": [
-          "Aanvoerperiode: van ",
-          { "inputType": "text" },
-          " tot ",
-          { "inputType": "text" },
-          ".",
+          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputType": "text" }, " tot ", { "inputType": "text" }, "."]},
           "<br>",
           { "checkboxFalse": ["Planning in overleg."] },
           "<br>",

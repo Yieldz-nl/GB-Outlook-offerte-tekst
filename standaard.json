@@ -177,15 +177,9 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          "Per ",
-          {
-            "optionsM": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "10x8 / 8x8.", "op alle assen aangedreven auto's."]
-          },
+          { "checkboxTrue": ["Per ", { "optionsM": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "10x8 / 8x8.", "op alle assen aangedreven auto's."] }] },
           "<br>",
-          {
-            "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
-          },
-          " maximaal 10 minuten direct na aankomst.",
+          { "checkboxTrue": [{ "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"] }, " maximaal 10 minuten direct na aankomst."] },
           "<br>",
           { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputType": "number" }," kilometer (enkele rit)."] },
           "<br>",
@@ -205,7 +199,7 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          { "checkboxFalse": ["Aanvoerperiode: van ", { "inputType": "text" }, " tot ", { "inputType": "text" }, "."]},
+          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputType": "text" }, " tot ", { "inputType": "text" }, "."]},
           "<br>",
           { "checkboxFalse": ["Planning in overleg."] },
           "<br>",
