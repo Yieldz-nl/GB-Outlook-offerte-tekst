@@ -22,7 +22,7 @@
           { "inputTypeS": "number", "thousandSeparator": "." },
           " ",
           { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          { "optionsS": ["", " / "] },
+          { "optionsS": [".", " / "] },
           { "inputTypeS": "number", "thousandSeparator": "." },
           " ",
           { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
