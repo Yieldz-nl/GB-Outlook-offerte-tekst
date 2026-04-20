@@ -30,7 +30,7 @@
           { "inputType": "number" },
           " ",
           { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          " / ",
+          { "optionsS": [".", " / "] },
           { "inputType": "number" },
           " ",
           { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
