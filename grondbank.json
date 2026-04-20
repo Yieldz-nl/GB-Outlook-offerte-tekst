@@ -169,7 +169,7 @@
             "optionsL": [
               "",
               "Op de grondbank wordt een indicatieve keuring ingezet.",
-              "Bodemkwaliteitskaart",
+              "Bodemkwaliteitskaart.",
               "Verkennend bodemonderzoek ... van ... rapportnummer: ..., d.d. ... ",
               "Vooronderzoek ... van ... rapportnummer: ..., d.d. ... "
             ]
@@ -257,6 +257,8 @@
         "kolom2": [
           { "checkboxTrue": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven."] },
           "<br>",
+          { "checkboxFalse": ["Inclusief het verzorgen van het Afvalstroomnummer."] },
+          "<br>",
           { "checkboxTrue": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
           "<br>",
           "Exclusief BTW."
@@ -267,7 +269,7 @@
         "kolom2": [
           { "checkboxTrue": ["Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1."] },
           "<br>",
-          { "checkboxFalse": ["Levering onder certificaat op basis van de BRL 9335 en protocol 9335-1. Van toepassing is de erkende kwaliteitsverklaring BRL 9335 (SIKB-protocol 9335-1) … d.d. …; de daarin opgenomen wenken dienen te worden opgevolgd."] }
+          { "checkboxFalse": ["Levering onder certificaat op basis van de BRL 9335 en protocol 9335-1. Van toepassing is de erkende kwaliteitsverklaring … d.d. …; de daarin opgenomen wenken dienen te worden opgevolgd."] }
         ]
       }
     ]
