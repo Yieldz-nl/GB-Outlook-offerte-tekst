@@ -62,21 +62,6 @@
         ]
       },
       {
-        "kolom1": "Verrekening",
-        "kolom2": [
-          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ...","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan ..."] }
-        ]
-      },
-      {
-        "kolom1": "Prijs",
-        "kolom2": ["<b>", "€ ", { "inputTypeM": "number" }, " per ton.", "</b>"]
-      }
-    ]
-  },
-  {
-    "title": "UITGANGSPUNTEN",
-    "rows": [
-      {
         "kolom1": "Verontreiniging",
         "kolom2": [
           { "checkboxFalse": ["Minerale olie."] },
@@ -96,6 +81,21 @@
         "kolom1": "Slibgehalte",
         "kolom2": ["Maximaal ", { "inputTypeS": "number" }, "%."]
       },
+      {
+        "kolom1": "Verrekening",
+        "kolom2": [
+          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ...","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan ..."] }
+        ]
+      },
+      {
+        "kolom1": "Prijs",
+        "kolom2": ["<b>", "€ ", { "inputTypeM": "number" }, " per ", { "optionsS": ["", "ton.", "kuub."] }, "</b>"]
+      }
+    ]
+  },
+  {
+    "title": "UITGANGSPUNTEN",
+    "rows": [
       {
         "kolom1": "Bijzonderheden",
         "kolom2": [

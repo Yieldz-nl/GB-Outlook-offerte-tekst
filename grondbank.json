@@ -13,7 +13,7 @@
     ]
   },
   {
-    "title": "AANBOD",
+    "title": "PARTIJ",
     "rows": [
      {
         "kolom1": "Hoeveelheid",
@@ -210,7 +210,8 @@
           {
             "optionsM": [
               "",
-              "weging van transport in tonnen op de loslocatie/laadlocatie.",
+              "weging van transport in tonnen op de loslocatie.",
+              "weging van transport in tonnen op de laadlocatie.",
               "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
             ]
           }
@@ -255,9 +256,7 @@
       {
         "kolom1": "Opbouw verrekenprijs",
         "kolom2": [
-          { "checkboxTrue": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven."] },
-          "<br>",
-          { "checkboxFalse": ["Inclusief het verzorgen van het Afvalstroomnummer."] },
+          { "optionsL": ["", "Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven.", "Inclusief het verzorgen van het Afvalstroomnummer."] },
           "<br>",
           { "checkboxTrue": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
           "<br>",
