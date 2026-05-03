@@ -19,11 +19,11 @@
         "kolom1": "Hoeveelheid",
         "kolom2": [
           "Circa ",
-          { "inputTypeS": "number" },
+          { "inputTypeS": "number", "thousandSeparator": "." },
           " ",
           { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          " / ",
-          { "inputTypeS": "number" },
+          { "optionsS": [".", " / "] },
+          { "inputTypeS": "number", "thousandSeparator": "." },
           " ",
           { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
         ]
@@ -65,11 +65,29 @@
         ]
       },
       {
+        "kolom1": "Verrekening",
+        "kolom2": [
+          {
+            "optionsL": [
+              "",
+              "Acceptatie, inclusief transport per trailer.",
+              "Acceptatie, inclusief transport per 10x8.",
+              "Acceptatie, inclusief transport per 10x4.",
+              "Acceptatie, exclusief transport.",
+              "Geladen op de auto.",
+              "Geleverd op het werk."
+            ]
+          },
+          "<br>",
+          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ...","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan ..."] }
+        ]
+      },
+      {
         "kolom1": "Prijs grond",
         "kolom2": [
           "<b>",
           "€ ",
-          { "inputTypeM": "number" },
+          { "inputTypeM": "number", "thousandSeparator": "." },
           " per ",
           { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
           "</b>"
@@ -80,7 +98,7 @@
         "kolom2": [
           "<b>",
           "€ ",
-          { "inputTypeM": "number" },
+          { "inputTypeM": "number", "thousandSeparator": "." },
           " per ",
           { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton.", "uur."] },
           "</b>"
@@ -127,7 +145,7 @@
             ]
           },
           "<br>",
-          "Geopend van",
+          "Geopend van ",
           { "optionsS": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           " uur."
         ]
@@ -146,7 +164,17 @@
       },
       {
         "kolom1": "Bewijsmiddel",
-        "kolom2": ["Op de grondbank wordt een indicatieve keuring ingezet."]
+        "kolom2": [
+          {
+            "optionsL": [
+              "",
+              "Op de grondbank wordt een indicatieve keuring ingezet.",
+              "Bodemkwaliteitskaart.",
+              "Verkennend bodemonderzoek ... van ... rapportnummer: ..., d.d. ... ",
+              "Vooronderzoek ... van ... rapportnummer: ..., d.d. ... "
+            ]
+          }
+        ]
       },
       {
         "kolom1": "Samenstelling",
@@ -195,7 +223,7 @@
           "<br>",
           { "checkboxTrue": [{ "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"] }, " maximaal 10 minuten direct na aankomst."] },
           "<br>",
-          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputTypeS": "number" }," kilometer (enkele rit)."] },
+          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputTypeS": "number", "thousandSeparator": "." }," kilometer (enkele rit)."] },
           "<br>",
           {
             "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
@@ -229,6 +257,8 @@
         "kolom2": [
           { "checkboxTrue": ["Inclusief het verzorgen van het Afvalstroomnummer en digitale begeleidingsbrieven."] },
           "<br>",
+          { "checkboxFalse": ["Inclusief het verzorgen van het Afvalstroomnummer."] },
+          "<br>",
           { "checkboxTrue": ["Exclusief laden, rijplaten en schoonhouden wegen."] },
           "<br>",
           "Exclusief BTW."
@@ -236,7 +266,11 @@
       },
       {
         "kolom1": "Kwaliteitsborging",
-        "kolom2": ["Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1."]
+        "kolom2": [
+          { "checkboxTrue": ["Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1."] },
+          "<br>",
+          { "checkboxFalse": ["Levering onder certificaat op basis van de BRL 9335 en protocol 9335-1. Van toepassing is de erkende kwaliteitsverklaring … d.d. …; de daarin opgenomen wenken dienen te worden opgevolgd."] }
+        ]
       }
     ]
   },

@@ -30,7 +30,7 @@
           { "inputTypeS": "number" },
           " ",
           { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
-          " / ",
+          { "optionsS": [".", " / "] },
           { "inputTypeS": "number" },
           " ",
           { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
@@ -125,6 +125,7 @@
             "optionsL": [
               "",
               "Partijkeuring (AP04) ... van ... rapportnummer: ..., d.d. ... ",
+              "Erkende kwaliteitsverklaring (EKV) ... van ... rapportnummer: ..., d.d. ... ",
               "Rapportage dient nog te worden overhandigd.",
               "Gecertificeerd conform BRL 9335-4."
             ]
