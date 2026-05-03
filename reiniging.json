@@ -179,9 +179,11 @@
       {
         "kolom1": "Transport",
         "kolom2": [
+          "Per ",
           {
-            "optionsM": ["", "Per trailer.", "Per trailer mogelijk.", "Per 10x4 / 8x4.", "Per 10x8 / 8x8.", "Op alle assen aangedreven auto's."]
+            "optionsM": ["", "trailer", "trailer mogelijk", "8x4", "8x8", "10x4", "10x8", "op alle assen aangedreven auto's"]
           },
+          ".",
           "<br>",
           {
             "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]

@@ -216,7 +216,7 @@
       {
         "kolom1": "Transport",
         "kolom2": [
-          { "checkboxTrue": ["Per ", { "optionsMultipleM": ["", "trailer.", "trailer mogelijk.", "10x4 / 8x4.", "10x8 / 8x8.", "op alle assen aangedreven auto's."] }] },
+          { "checkboxTrue": ["Per ", { "optionsMultipleM": ["", "trailer", "trailer mogelijk", "8x4", "8x8", "10x4", "10x8", "op alle assen aangedreven auto's"] }, "."] },
           "<br>",
           { "checkboxTrue": [{ "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"] }, " maximaal 10 minuten direct na aankomst."] },
           "<br>",
