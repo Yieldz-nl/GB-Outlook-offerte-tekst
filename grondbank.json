@@ -3,12 +3,12 @@
     "title": "INTRODUCTIE",
     "text": [
       "Beste ",
-      { "inputType": "text" },
+      { "inputTypeS": "text" },
       ",",
       "<br>",
       "<br>",
       "Bedankt voor uw prijsaanvraag. Hierbij ontvangt u onze prijsaanbieding met betrekking tot het project ",
-      { "inputType": "text" },
+      { "inputTypeM": "text" },
       "."
     ]
   },
@@ -69,9 +69,9 @@
         "kolom2": [
           "<b>",
           "€ ",
-          { "inputType": "number" },
+          { "inputTypeM": "number" },
           " per ",
-          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
           "</b>"
         ]
       },
@@ -80,9 +80,9 @@
         "kolom2": [
           "<b>",
           "€ ",
-          { "inputType": "number" },
+          { "inputTypeM": "number" },
           " per ",
-          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton.", "uur."] },
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton.", "uur."] },
           "</b>"
         ]
       }
@@ -95,7 +95,7 @@
         "kolom1": "Kwaliteit indicatief",
         "kolom2": [
           {
-            "options": [
+            "optionsM": [
               "",
               "Klasse Landbouw/Natuur (schoon en vrij toepasbaar).",
               "Klasse wonen.",
@@ -108,7 +108,7 @@
         "kolom1": "Grondbanklocatie",
         "kolom2": [
           {
-            "options": [
+            "optionsL": [
               "",
               "Grondbank Alkmaar, Vronermeerweg 10 te Sint Pancras.",
               "Grondbank Almere, Hefbrugweg 103 te Almere.",
@@ -128,7 +128,7 @@
           },
           "<br>",
           "Geopend van",
-          { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
+          { "optionsS": ["", "06:00 - 16:00", "06:00 - 17:00", "07:00 - 16:00", "07:00 - 17:00"] },
           " uur."
         ]
       },
@@ -165,7 +165,7 @@
               "De partij dient vrij te zijn van puin / bijmenging.",
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 5%.",
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 10%.",
-              "De partij dient vrij te zijn van puin: Enkele bakstenen in de partij is toelaatbaar. Indien op de grondbank blijkt dat de partij uitgezeefd/-riekt dient te worden, zullen de kosten voor het uitzeven van de partij aan u doorberekend worden.",
+              "De partij dient vrij te zijn van puin: Enkele bakstenen in de partij is toelaatbaar. Indien op de grondbank blijkt dat de partij uitgezeefd/-riekt dient te worden, zullen de kosten voor het uitzeven van de partij aan u doorberekend worden.",
               "De rapportage vermeldt ...% bodemvreemd materiaal bestaande uit ..."
             ]
           },
@@ -180,7 +180,7 @@
         "kolom2": [
           "Door ",
           {
-            "options": [
+            "optionsM": [
               "",
               "weging van transport in tonnen op de loslocatie/laadlocatie.",
               "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
@@ -195,7 +195,7 @@
           "<br>",
           { "checkboxTrue": [{ "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"] }, " maximaal 10 minuten direct na aankomst."] },
           "<br>",
-          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputType": "number" }," kilometer (enkele rit)."] },
+          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputTypeS": "number" }," kilometer (enkele rit)."] },
           "<br>",
           {
             "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
@@ -213,7 +213,7 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputType": "text" }, " tot ", { "inputType": "text" }, "."]},
+          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputTypeS": "text" }, " tot ", { "inputTypeS": "text" }, "."]},
           "<br>",
           { "checkboxFalse": ["Planning in overleg."] },
           "<br>",

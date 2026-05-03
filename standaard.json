@@ -181,7 +181,7 @@
           "<br>",
           { "checkboxTrue": [{ "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"] }, " maximaal 10 minuten direct na aankomst."] },
           "<br>",
-          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputType": "number" }," kilometer (enkele rit)."] },
+          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputTypeS": "number" }," kilometer (enkele rit)."] },
           "<br>",
           {
             "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
@@ -201,11 +201,11 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputType": "text" }, " tot ", { "inputType": "text" }, "."]},
+          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputTypeS": "text" }, " tot ", { "inputTypeS": "text" }, "."]},
           "<br>",
           { "checkboxFalse": ["Planning in overleg."] },
           "<br>",
-          { "checkboxFalse": [{ "options": ["", "Circa", "Minimaal", "Maximaal"] }, " ", { "inputType": "number" }, " ", { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }, " per dag / totale hoeveelheid aaneengesloten", " ", { "options": ["", "afvoeren", "leveren"] }, " op basis van volle dagproducties van transport."]}
+          { "checkboxFalse": [{ "optionsS": ["", "Circa", "Minimaal", "Maximaal"] }, " ", { "inputTypeS": "number" }, " ", { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }, " per dag / totale hoeveelheid aaneengesloten", " ", { "optionsS": ["", "afvoeren", "leveren"] }, " op basis van volle dagproducties van transport."]}
         ]
       },
       {

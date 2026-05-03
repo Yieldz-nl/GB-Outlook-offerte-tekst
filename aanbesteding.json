@@ -3,12 +3,12 @@
     "title": "INTRODUCTIE",
     "text": [
       "Beste ",
-      { "inputType": "text" },
+      { "inputTypeS": "text" },
       ",",
       "<br>",
       "<br>",
       "Bedankt voor uw prijsaanvraag. Hierbij ontvangt u onze prijsaanbieding met betrekking tot het project ",
-      { "inputType": "text" },
+      { "inputTypeM": "text" },
       "."
     ]
   },
@@ -18,19 +18,19 @@
       {
         "kolom1": "Bestekpost",
         "kolom2": [
-          { "inputType": "text" },
+          { "inputTypeM": "text" },
           "."
         ]
       },
       {
         "kolom1": "Handeling",
-        "kolom2": [{ "options": ["", "Afvoeren.", "Levering.", "Acceptatie."] }]
+        "kolom2": [{ "optionsS": ["", "Afvoeren.", "Levering.", "Acceptatie."] }]
       },
       {
         "kolom1": "Kwaliteit",
         "kolom2": [
           {
-            "options": [
+            "optionsM": [
               "",
               "Klasse Landbouw/Natuur (schoon en vrij toepasbaar).",
               "Klasse wonen.",
@@ -43,7 +43,7 @@
           "<br>",
           "PFAS dienen te voldoen aan ",
           {
-            "options": [
+            "optionsM": [
               "",
               "de detectiegrens van 0,1 µg/kg ds.",
               "4.1 landbouw/natuur  (PFOA 1,9 µg/kg ds en overige PFAS 1,4 µg/kg ds).",
@@ -63,7 +63,7 @@
         "kolom1": "Transport",
         "kolom2": [
           {
-            "options": [
+            "optionsM": [
               "",
               "Inclusief transport per trailer.",
               "Inclusief transport per 10x8.",
@@ -80,9 +80,9 @@
         "kolom2": [
           "<b>",
           "€ ",
-          { "inputType": "number" },
+          { "inputTypeM": "number" },
           " per ",
-          { "options": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
           "</b>"
         ]
       }
@@ -93,13 +93,13 @@
     "rows": [
       {
         "kolom1": "Gewicht",
-        "kolom2": ["Uitgaand van ", { "inputType": "number" }, " m³/ton."]
+        "kolom2": ["Uitgaand van ", { "inputTypeS": "number" }, " m³/ton."]
       },
       {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
           {
-            "options": [
+            "optionsL": [
               "",
               "Partijkeuring (AP04) ... van ... rapportnummer: ..., d.d. ... ",
               "Rapportage dient nog door u te worden overhandigd.",
@@ -142,7 +142,7 @@
         "kolom2": [
           "Door ",
           {
-            "options": [
+            "optionsM": [
               "",
               "weging van transport in tonnen op de loslocatie/laadlocatie.",
               "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
@@ -154,15 +154,15 @@
         "kolom1": "Transport",
         "kolom2": [
           {
-            "options": ["", "Per trailer.", "Per trailer mogelijk.", "Per 10x4 / 8x4.", "Per 10x8 / 8x8.", "Op alle assen aangedreven auto's."]
+            "optionsM": ["", "Per trailer.", "Per trailer mogelijk.", "Per 10x4 / 8x4.", "Per 10x8 / 8x8.", "Op alle assen aangedreven auto's."]
           },
           "<br>",
           {
-            "options": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
+            "optionsS": ["", "Laadtijd", "Lostijd", "Laad- en lostijd"]
           },
           " maximaal 10 minuten direct na aankomst.",
           "<br>",
-          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputType": "number" }," kilometer (enkele rit)."] },
+          { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputTypeS": "number" }," kilometer (enkele rit)."] },
           "<br>",
           {
             "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
@@ -180,17 +180,17 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputType": "text" }, " tot ", { "inputType": "text" }, "."]},
+          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputTypeS": "text" }, " tot ", { "inputTypeS": "text" }, "."]},
           "<br>",
           { "checkboxFalse": ["Planning in overleg."] },
           "<br>",
-          { "options": ["", "Circa", "Minimaal", "Maximaal"] },
+          { "optionsS": ["", "Circa", "Minimaal", "Maximaal"] },
           " ",
-          { "inputType": "number" },
+          { "inputTypeS": "number" },
           " ",
-          { "options": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
           " per dag / totale hoeveelheid aaneengesloten",
-          { "options": ["", "afvoeren", "leveren"] },
+          { "optionsS": ["", "afvoeren", "leveren"] },
           " op basis van volle dagproducties van transport."
         ]
       },
@@ -198,7 +198,7 @@
         "kolom1": "Werktijden",
         "kolom2": [
           "Reguliere werkdagen en werktijden ",
-          { "options": ["", "06:00 - 16:00", "06:00 - 17:00", "06:30 - 16:00", "07:00 - 16:00", "07:00 - 16:30", "07:00 - 17:00"] },
+          { "optionsS": ["", "06:00 - 16:00", "06:00 - 17:00", "06:30 - 16:00", "07:00 - 16:00", "07:00 - 16:30", "07:00 - 17:00"] },
           " uur."
         ]
       },
