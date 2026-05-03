@@ -181,7 +181,7 @@
         "kolom2": [
           "Per ",
           {
-            "optionsM": ["trailer", "trailer mogelijk", "8x4", "8x8", "10x4", "10x8", "op alle assen aangedreven auto's"]
+            "optionsMultipleM": ["trailer", "trailer mogelijk", "8x4", "8x8", "10x4", "10x8", "op alle assen aangedreven auto's"]
           },
           ".",
           "<br>",
