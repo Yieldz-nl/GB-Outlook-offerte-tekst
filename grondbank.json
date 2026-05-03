@@ -100,7 +100,7 @@
           "€ ",
           { "inputTypeM": "number", "thousandSeparator": "." },
           " per ",
-          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton.", "uur."] },
+          { "optionsMultipleS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton.", "uur."] },
           "</b>"
         ]
       }
