@@ -3,12 +3,12 @@
     "title": "INTRODUCTIE",
     "text": [
       "Beste ",
-      { "inputTypeS": "text" },
+      { "inputTypeS{aanhef}": "text" },
       ",",
       "<br>",
       "<br>",
       "Bedankt voor uw prijsaanvraag. Hierbij ontvangt u onze prijsaanbieding met betrekking tot het project ",
-      { "inputTypeM": "text" },
+      { "inputTypeM{projectnaam}": "text" },
       "."
     ]
   },
