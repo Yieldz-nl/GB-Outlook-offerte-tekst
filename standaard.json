@@ -89,7 +89,7 @@
             ]
           },
           "<br>",
-          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ...","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan ..."] }
+          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan [ontvanger]","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan [ontvanger]"] }
         ]
       },
       {
@@ -122,8 +122,8 @@
           {
             "optionsL": [
               "",
-              "Partijkeuring (AP04) ... van ... rapportnummer: ..., d.d. ... ",
-              "Erkende kwaliteitsverklaring (EKV) ... van ... rapportnummer: ..., d.d. ... ",
+              "Partijkeuring (AP04) [rapporttitel] van [onderzoeksbureau] rapportnummer: [rapportnummer], d.d. [datum] ",
+              "Erkende kwaliteitsverklaring (EKV) [rapporttitel] van [onderzoeksbureau] rapportnummer: [rapportnummer], d.d. [datum] ",
               "Rapportage dient nog te worden overhandigd.",
               "Gecertificeerd conform BRL 9335-4."
             ]
@@ -155,7 +155,7 @@
               "De partij dient vrij te zijn van puin / bijmenging.",
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 5%.",
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 10%.",
-              "De rapportage vermeldt ...% bodemvreemd materiaal bestaande uit ..."
+              "De rapportage vermeldt [percentage]% bodemvreemd materiaal bestaande uit [materiaal]"
             ]
           }
         ]

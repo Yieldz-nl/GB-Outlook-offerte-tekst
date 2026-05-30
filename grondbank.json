@@ -79,7 +79,7 @@
             ]
           },
           "<br>",
-          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan ...","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan ..."] }
+          { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan [ontvanger]","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan [ontvanger]"] }
         ]
       },
       {
@@ -166,8 +166,8 @@
               "",
               "Op de grondbank wordt een indicatieve keuring ingezet.",
               "Bodemkwaliteitskaart.",
-              "Verkennend bodemonderzoek ... van ... rapportnummer: ..., d.d. ... ",
-              "Vooronderzoek ... van ... rapportnummer: ..., d.d. ... "
+              "Verkennend bodemonderzoek [rapporttitel] van [onderzoeksbureau] rapportnummer: [rapportnummer], d.d. [datum] ",
+              "Vooronderzoek [rapporttitel] van [onderzoeksbureau] rapportnummer: [rapportnummer], d.d. [datum] "
             ]
           }
         ]
@@ -190,7 +190,7 @@
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 5%.",
               "De partij dient vrij te zijn van grof puin, fijn puin < 5 cm maximaal 10%.",
               "De partij dient vrij te zijn van puin: Enkele bakstenen in de partij is toelaatbaar. Indien op de grondbank blijkt dat de partij uitgezeefd/-riekt dient te worden, zullen de kosten voor het uitzeven van de partij aan u doorberekend worden.",
-              "De rapportage vermeldt ...% bodemvreemd materiaal bestaande uit ..."
+              "De rapportage vermeldt [percentage]% bodemvreemd materiaal bestaande uit [materiaal]"
             ]
           },
           "<br>",
