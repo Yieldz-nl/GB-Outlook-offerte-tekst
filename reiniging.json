@@ -170,7 +170,8 @@
           {
             "optionsM": [
               "",
-              "weging van transport in tonnen op de loslocatie/laadlocatie.",
+              "weging van transport in tonnen op de loslocatie.",
+              "weging van transport in tonnen op de laadlocatie.",
               "middel van transport in losse m³ (trailer 25 m³, 10x8 en 10x4 24 m³)."
             ]
           }
@@ -239,7 +240,9 @@
         "kolom2": [
           {
             "checkboxFalse": [
-              "Indien het materiaal afwijkingen vertoont met de vooraf overlegde gegevens en beschreven slibgehaltes zal een verrekening plaatsvinden van € 1,50 per massa % per ton."
+              "Indien het materiaal afwijkingen vertoont met de vooraf overlegde gegevens en beschreven slibgehaltes zal een verrekening plaatsvinden van € ",
+              { "optionsS": ["1,50", "1,75"] },
+              " per massa % per ton."
             ]
           }
         ]
