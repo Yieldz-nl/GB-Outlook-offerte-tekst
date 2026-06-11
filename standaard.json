@@ -3,7 +3,7 @@
     "title": "INTRODUCTIE",
     "text": [
       "Beste ",
-      { "inputTypeS{contactpersoon}": "text" },
+      { "inputTypeM{contactpersoon}": "text" },
       ",",
       "<br>",
       "<br>",
