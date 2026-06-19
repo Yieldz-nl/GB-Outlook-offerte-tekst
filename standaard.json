@@ -100,7 +100,12 @@
           { "inputTypeM": "number" },
           " per ",
           { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
-          "</b>"
+          "</b>",
+          " (excl. kilometerheffing, zie hieronder)",
+          "<br>",
+          "Exclusief kilometerheffing vrachtverkeer (vanaf 1 juli 2026) à € 0,22 per gereden kilometer: € 0,53 per losse m³ (berekend op basis van de verwachte transportafstand en transportinzet)",
+          "<br>",
+          "Inclusief brandstoftoeslag conform TLN-index op offertedatum à € 1,935 per liter"
         ]
       }
     ]
@@ -188,11 +193,15 @@
           },
           "<br>",
           {
-            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € ", { "optionsS": ["1,70", "1,50"] }, " per liter, conform de TLN-index; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
+            "checkboxFalse": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € ", { "optionsS": ["1,70", "1,50"] }, " per liter, conform de TLN-index; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
           },
           "<br>",
           {
-            "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefwijzigingen. Let op: per juli 2026 worden tariefwijzigingen verwacht door de invoering van de vrachtwagenheffing."]
+            "checkboxTrue": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
+          },
+          "<br>",
+          {
+            "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefswijzigingen."]
           },
           "<br>",
           { "checkboxFalse": [{ "inputTypeL": "text" }]}
