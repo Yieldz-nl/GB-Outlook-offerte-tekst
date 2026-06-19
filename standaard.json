@@ -95,21 +95,17 @@
       {
         "kolom1": "Prijs",
         "kolom2": [
-          "<b>",
-          "€ ",
-          { "inputTypeM": "number" },
-          " per ",
-          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
-          "</b>",
-          " (excl. kilometerheffing, zie hieronder)",
-          "<br>",
-          "Exclusief kilometerheffing vrachtverkeer (vanaf 1 juli 2026) à € 0,22 per gereden kilometer: € ",
-          { "inputTypeS": "number" },
-          " per losse m³ (berekend op basis van de verwachte transportafstand en transportinzet)",
-          "<br>",
-          "Inclusief brandstoftoeslag conform TLN-index op offertedatum à € ",
-          { "inputTypeS": "number" },
-          " per liter"
+        "<b>",
+        "€ ",
+        { "inputTypeM": "number" },
+        " per ",
+        { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
+        "</b>",
+        " (excl. kilometerheffing, zie hieronder)",
+        "<br>",
+        { "checkboxTrue": ["Exclusief kilometerheffing vrachtverkeer (vanaf 1 juli 2026) à € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per losse m³ (berekend op basis van de verwachte transportafstand en transportinzet)"] },
+        "<br>",
+        { "checkboxTrue": ["Inclusief brandstoftoeslag conform TLN-index op offertedatum à € ", { "inputTypeS": "number" }, " per liter"] }
         ]
       }
     ]
