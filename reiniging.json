@@ -214,6 +214,10 @@
           },
           "<br>",
           {
+            "checkboxTrue": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
+          },
+          "<br>",
+          {
             "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefswijzigingen."]
           }
         ]
