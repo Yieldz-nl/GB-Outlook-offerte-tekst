@@ -198,11 +198,11 @@
           },
           "<br>",
           {
-            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € ", { "optionsS": ["1,70", "1,50"] }, " per liter, conform de TLN-index; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
+            "checkboxFalse": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € ", { "optionsS": ["1,70", "1,50"] }, " per liter, conform de TLN-index; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
           },
           "<br>",
           {
-            "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefwijzigingen. Let op: per juli 2026 worden tariefwijzigingen verwacht door de invoering van de vrachtwagenheffing."]
+            "checkboxTrue": ["Aanpassingen als gevolg van milieuzones, projectgebonden milieumaatregelen of wijzigingen in heffingen vanuit de overheid kunnen leiden tot tariefswijzigingen."]
           }
         ]
       },
