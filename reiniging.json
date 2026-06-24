@@ -100,7 +100,7 @@
         "<br>",
         { "checkboxTrue": ["Exclusief kilometerheffing vrachtverkeer (vanaf 1 juli 2026) à € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "ton", "kuub"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
         "<br>",
-        {"checkboxTrue": ["Inclusief brandstoftoeslag conform TLN-index op offertedatum à € ", { "inputTypeS": "number" }, " per liter."] }
+        {"checkboxTrue": ["Inclusief brandstoftoeslag conform TLN-index op offertedatum à € ", { "dataS{brandstofprijs}": "number" }, " per liter."] }
         ]
       }
     ]
