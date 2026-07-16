@@ -102,7 +102,7 @@
         { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
         "</b>",
         "<br>",
-        { "checkboxFTrue": ["Inclusief kilometerheffing vrachtverkeer."] },
+        { "checkboxTrue": ["Inclusief kilometerheffing vrachtverkeer."] },
         "<br>",
         { "checkboxFalse": ["Exclusief kilometerheffing vrachtverkeer € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
         "<br>",
