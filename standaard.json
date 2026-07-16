@@ -101,9 +101,10 @@
         " per ",
         { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] },
         "</b>",
-        " (excl. kilometerheffing, zie hieronder)",
         "<br>",
-        { "checkboxTrue": ["Exclusief kilometerheffing vrachtverkeer € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
+        { "checkboxFTrue": ["Inclusief kilometerheffing vrachtverkeer."] },
+        "<br>",
+        { "checkboxFalse": ["Exclusief kilometerheffing vrachtverkeer € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
         "<br>",
         { "checkboxTrue": ["Inclusief brandstoftoeslag conform TLN-index op offertedatum à € ", { "dataS{brandstofprijs}": "number" }, " per liter."] }
         ]
@@ -197,7 +198,7 @@
           },
           "<br>",
           {
-            "checkboxTrue": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
+            "checkboxFalse": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
           },
           "<br>",
           {
