@@ -27,6 +27,19 @@
         "kolom2": [{ "optionsS": ["", "Afvoeren.", "Levering.", "Acceptatie."] }]
       },
       {
+        "kolom1": "Hoeveelheid",
+        "kolom2": [
+          "Circa ",
+          { "inputTypeS": "number", "thousandSeparator": "." },
+          " ",
+          { "optionsS": ["", "losse m³", "vaste m³", "situ m³", "beun m³", "ton"] },
+          { "optionsS": [".", " / "] },
+          { "inputTypeS": "number", "thousandSeparator": "." },
+          " ",
+          { "optionsS": ["", "losse m³.", "vaste m³.", "situ m³.", "beun m³.", "ton."] }
+        ]
+      },
+      {
         "kolom1": "Kwaliteit",
         "kolom2": [
           {
