@@ -96,9 +96,10 @@
         " per ",
         { "optionsS": ["", "ton.", "kuub."] },
         "</b>",
-        " (excl. kilometerheffing, zie hieronder)",
         "<br>",
-        { "checkboxTrue": ["Exclusief kilometerheffing vrachtverkeer (vanaf 1 juli 2026) à € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "ton", "kuub"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
+        { "checkboxTrue": ["Inclusief kilometerheffing vrachtverkeer."] },
+        "<br>",
+        { "checkboxFalse": ["Exclusief kilometerheffing vrachtverkeer à € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "ton", "kuub"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
         "<br>",
         {"checkboxTrue": ["Inclusief brandstoftoeslag conform TLN-index op offertedatum à € ", { "dataS{brandstofprijs}": "number" }, " per liter."] }
         ]
@@ -214,7 +215,7 @@
           },
           "<br>",
           {
-            "checkboxTrue": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
+            "checkboxFalse": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
           },
           "<br>",
           {
