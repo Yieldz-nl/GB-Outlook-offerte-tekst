@@ -99,7 +99,7 @@
         "<br>",
         { "checkboxTrue": ["Inclusief kilometerheffing vrachtverkeer."] },
         "<br>",
-        { "checkboxFalse": ["Exclusief kilometerheffing vrachtverkeer à € 0,22 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "ton", "kuub"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
+        { "checkboxFalse": ["Exclusief kilometerheffing vrachtverkeer à € 0,16 per gereden kilometer: € ", { "inputTypeS": "number" }, " per ", { "optionsS": ["", "ton", "kuub"] }, " (berekend op basis van de verwachte transportafstand en transportinzet)."] },
         "<br>",
         {"checkboxTrue": ["Inclusief brandstoftoeslag conform TLN-index op offertedatum à € ", { "dataS{brandstofprijs}": "number" }, " per liter."] }
         ]
