@@ -19,7 +19,7 @@
         "kolom1": "Materiaal",
         "kolom2": [
           {
-            "optionsM": ["", "Grond.", "Zand voor zandbed.", "Zand voor ophoging.", "Klei.", "Veen."]
+            "optionsM": ["", "Grond.", "Zand voor zandbed.", "Zand voor ophoging.", "Zandige grond.", "Klei.", "Veen."]
           }
         ]
       },
@@ -74,16 +74,38 @@
           "<br>",
           { "checkboxFalse": ["PFAS."] },
           "<br>",
+          { "checkboxFalse": ["Overige parameters voldoen."] },
+          "<br>",
           { "checkboxFalse": ["[opmerking]"] }
         ]
       },
       {
         "kolom1": "Slibgehalte",
-        "kolom2": ["Maximaal ", { "inputTypeS": "number" }, "%."]
+        "kolom2": [
+          "Maximaal ",
+          { "inputTypeS": "number" },
+          "%.",
+          "<br>",
+          "Slibgehalte is bepaald door ",
+          {
+            "optionsM": ["", "fractie <2 µm+ organische stof gehalte.", "zeefkromme <63 µm + organische stof gehalte."]
+          }
+        ]
       },
       {
         "kolom1": "Verrekening",
         "kolom2": [
+          {
+            "optionsL": [
+              "",
+              "Inclusief transport per trailer.",
+              "Inclusief transport per 10x8.",
+              "Inclusief transport per 10x4.",
+              "Exclusief transport.",
+              "Exclusief transport op ... km (enkele rit)."
+            ]
+          },
+          "<br>",
           { "optionsL": ["", "Betaling aan Grondbalans B.V.", "Vergoeding door Grondbalans B.V. aan [ontvanger]","Betaling aan Grondbalans Noordoost B.V.", "Vergoeding door Grondbalans Noordoost B.V. aan [ontvanger]"] }
         ]
       },
@@ -118,20 +140,6 @@
         ]
       },
       {
-        "kolom1": "Transport",
-        "kolom2": [
-          {
-            "optionsM": [
-              "",
-              "Inclusief transport per trailer.",
-              "Inclusief transport per 10x8.",
-              "Inclusief transport per 10x4.",
-              "Exclusief transport."
-            ]
-          }
-        ]
-      },
-      {
         "kolom1": "Bewijsmiddel",
         "kolom2": [
           {
@@ -140,7 +148,8 @@
               "Partijkeuring (AP04) [rapporttitel] van [onderzoeksbureau] rapportnummer: [rapportnummer], d.d. [datum] ",
               "Bodemonderzoek [rapporttitel] van [onderzoeksbureau] rapportnummer: [rapportnummer], d.d. [datum] ",
               "Indicatief onderzoek [rapporttitel] van [onderzoeksbureau] rapportnummer: [rapportnummer], d.d. [datum] ",
-              "Rapportage dient nog te worden overhandigd."
+              "Rapportage dient nog te worden overhandigd.",
+              "Rapport door u overhandigd bij aanvraag."
             ]
           }
         ]
@@ -148,11 +157,6 @@
       {
         "kolom1": "Samenstelling",
         "kolom2": [
-          "Slibgehalte is bepaald door ",
-          {
-            "optionsM": ["", "fractie <2 µm+ organische stof gehalte.", "zeefkromme <63 µm + organische stof gehalte."]
-          },
-          "<br>",
           {
             "checkboxTrue": [
               "De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest en vrij van overige bodemvreemde bestanddelen en geuren te zijn."
@@ -226,9 +230,9 @@
       {
         "kolom1": "Planning",
         "kolom2": [
-          { "checkboxTrue": ["Aanvoerperiode: van ", { "inputTypeS": "text" }, " tot ", { "inputTypeS": "text" }, "."]},
+          { "checkboxFalse": ["Aanvoerperiode: van ", { "inputTypeS": "text" }, " tot ", { "inputTypeS": "text" }, "."]},
           "<br>",
-          { "checkboxFalse": ["Planning in overleg."] },
+          { "checkboxTrue": ["Planning in overleg."] },
           "<br>",
           { "optionsS": ["", "Circa", "Minimaal", "Maximaal"] },
           " ",
