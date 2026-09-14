@@ -182,7 +182,7 @@
         "kolom1": "Samenstelling",
         "kolom2": [
           {
-            "checkboxTrue": ["De partij dient droog/steekvast (3 meter opzetbaar), vrij van asbest en vrij van overige bodemvreemde bestanddelen en geuren te zijn."]
+            "checkboxTrue": ["De partij dient droog/steekvast (3 meter opzetbaar), ", { "optionsS": ["", "vrij van asbest", "asbest < 100 mg/kg ds"] }, " en vrij van overige bodemvreemde bestanddelen en geuren te zijn."]
           },
           "<br>",
           {
