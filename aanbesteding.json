@@ -112,7 +112,7 @@
     "rows": [
       {
         "kolom1": "Gewicht",
-        "kolom2": ["Uitgaand van ", { "inputTypeS": "number" }, " m³/ton."]
+        "kolom2": ["Uitgaand van ", { "inputTypeS": "number" }, " ton/m³."]
       },
       {
         "kolom1": "Bewijsmiddel",
