@@ -272,9 +272,9 @@
       {
         "kolom1": "Kwaliteitsborging",
         "kolom2": [
-          { "checkboxTrue": ["Acceptatie onder certificaat conform de BRL 9335 en protocol 9335-1."] },
+          { "checkboxTrue": ["Acceptatie onder certificaat conform BRL 9335 en protocol 9335-1."] },
           "<br>",
-          { "checkboxFalse": ["Levering onder certificaat conform de BRL 9335 en protocol 9335-1. Van toepassing is de erkende kwaliteitsverklaring … d.d. …; de daarin opgenomen wenken dienen te worden opgevolgd."] }
+          { "checkboxFalse": ["Levering onder certificaat conform BRL 9335 en protocol 9335-1. Van toepassing is de erkende kwaliteitsverklaring … d.d. …; de daarin opgenomen wenken dienen te worden opgevolgd."] }
         ]
       }
     ]
