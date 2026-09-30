@@ -40,11 +40,11 @@
               "Klasse Landbouw/Natuur (schoon en vrij toepasbaar)",
               "Klasse wonen",
               "Klasse industrie (en voldoet aan emissiearme grond)",
-              "Klasse matig verontreinigd",
-              "Klasse sterk verontreinigd"
+              "Matig verontreinigd",
+              "Sterk verontreinigd"
             ]
           },
-          " conform Besluit Bodemkwaliteit.",
+          " zoals bedoeld in het Besluit Bodemkwaliteit.",
           "<br>",
           "PFAS dienen te voldoen aan ",
           {
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "kolom1": "Prijs grond",
+        "kolom1": "Acceptatietarief",
         "kolom2": [
         "<b>",
         "€ ",
@@ -94,7 +94,7 @@
         ]
       },
       {
-        "kolom1": "Prijs transport",
+        "kolom1": "Transportkosten",
         "kolom2": [
           "<b>",
           "€ ",
@@ -272,9 +272,9 @@
       {
         "kolom1": "Kwaliteitsborging",
         "kolom2": [
-          { "checkboxTrue": ["Acceptatie onder certificaat op basis van de BRL 9335 en protocol 9335-1."] },
+          { "checkboxTrue": ["Acceptatie onder certificaat conform de BRL 9335 en protocol 9335-1."] },
           "<br>",
-          { "checkboxFalse": ["Levering onder certificaat op basis van de BRL 9335 en protocol 9335-1. Van toepassing is de erkende kwaliteitsverklaring … d.d. …; de daarin opgenomen wenken dienen te worden opgevolgd."] }
+          { "checkboxFalse": ["Levering onder certificaat conform de BRL 9335 en protocol 9335-1. Van toepassing is de erkende kwaliteitsverklaring … d.d. …; de daarin opgenomen wenken dienen te worden opgevolgd."] }
         ]
       }
     ]
