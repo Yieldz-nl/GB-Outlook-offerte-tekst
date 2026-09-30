@@ -39,8 +39,8 @@
       {
         "kolom1": "Kwaliteit",
         "kolom2": [
-          { "optionsM": ["", "Klasse matig verontreinigd", "Klasse sterk verontreinigd"] },
-          " conform Besluit Bodemkwaliteit.",
+          { "optionsM": ["", "Matig verontreinigd", "Sterk verontreinigd"] },
+          " zoals bedoeld in het Besluit Bodemkwaliteit.",
           "<br>",
           "PFAS dienen te voldoen aan ",
           {
