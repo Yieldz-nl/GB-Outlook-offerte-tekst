@@ -48,11 +48,11 @@
               "Klasse Landbouw/Natuur (schoon en vrij toepasbaar)",
               "Klasse wonen",
               "Klasse industrie (en voldoet aan emissiearme grond)",
-              "Klasse matig verontreinigd",
-              "Klasse sterk verontreinigd"
+              "Matig verontreinigd",
+              "Sterk verontreinigd"
             ]
           },
-          " conform Besluit Bodemkwaliteit.",
+          " zoals bedoeld in het Besluit Bodemkwaliteit.",
           "<br>",
           "PFAS ",
           { "optionsS": ["", "dienen te voldoen aan", "voldoen aan"] },
