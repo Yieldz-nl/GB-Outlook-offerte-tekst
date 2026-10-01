@@ -46,7 +46,9 @@
           },
           " zoals bedoeld in het Besluit Bodemkwaliteit.",
           "<br>",
-          "PFAS dienen te voldoen aan ",
+          "PFAS",
+          { "optionsS": ["", "dienen te voldoen aan", "voldoen aan"] },
+          " ",
           {
             "optionsM": [
               "",
