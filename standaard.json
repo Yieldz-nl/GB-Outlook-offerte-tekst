@@ -190,15 +190,11 @@
           { "checkboxFalse": ["Transportafstand bedraagt circa ", { "inputTypeS": "number" }," kilometer (enkele rit)."] },
           "<br>",
           {
-            "checkboxFalse": ["Onze tarieven zijn gebaseerd op de brandstofprijzen op de offertedatum en de inzet van reguliere dieselvrachtwagens."]
+            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs conform de TLN-index; afwijkingen in de dieselprijs worden op basis van nacalculatie verrekend."]
           },
           "<br>",
           {
-            "checkboxTrue": ["Onze tarieven zijn gebaseerd op de inzet van reguliere dieselvrachtwagens en een dieselprijs van € ", { "optionsS": ["1,70", "1,50"] }, " per liter, conform de TLN-index; bij hogere brandstofprijzen wordt een dieseltoeslag berekend op basis van nacalculatie."]
-          },
-          "<br>",
-          {
-            "checkboxFalse": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
+            "checkboxTrue": ["Kilometerheffing vrachtverkeer is berekend op basis van de verwachte transportafstand en transportinzet. Verrekening vindt plaats op basis van de door transporteur doorbelaste kilometerheffing."]
           },
           "<br>",
           {
