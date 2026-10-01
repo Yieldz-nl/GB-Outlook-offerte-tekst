@@ -42,7 +42,8 @@
           { "optionsM": ["", "Matig verontreinigd", "Sterk verontreinigd"] },
           " zoals bedoeld in het Besluit Bodemkwaliteit.",
           "<br>",
-          "PFAS dienen te voldoen aan ",
+          { "optionsS": ["", "dienen te voldoen aan", "voldoen aan"] },
+          " ",
           {
             "optionsM": [
               "",
